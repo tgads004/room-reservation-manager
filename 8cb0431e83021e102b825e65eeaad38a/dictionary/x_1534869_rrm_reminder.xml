@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="dde48b5283421e102b825e65eeaad3d4" extends="task" label="Reminder" max_length="40" name="x_1534869_rrm_reminder" type="collection"/>
+</database>

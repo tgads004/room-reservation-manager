@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Configuration Management (CMDB)" source="com.snc.cmdb">3e42a44e1802021076dae3f117ba1e54</dependency>
+        <min_version>1.1</min_version>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 01:12:48</sys_created_on>
+        <sys_id>89e9431a83421e102b825e65eeaad3d4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 01:12:48</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

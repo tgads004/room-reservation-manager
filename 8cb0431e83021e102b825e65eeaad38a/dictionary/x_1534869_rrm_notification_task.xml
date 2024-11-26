@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="bf448f1283421e102b825e65eeaad32b" extends="task" label="Notification Task" max_length="40" name="x_1534869_rrm_notification_task" type="collection"/>
+</database>
