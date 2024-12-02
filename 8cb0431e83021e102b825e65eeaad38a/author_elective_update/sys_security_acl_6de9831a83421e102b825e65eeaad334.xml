@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1534869_rrm_conference_room</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 01:12:50</sys_created_on>
+        <sys_id>6de9831a83421e102b825e65eeaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1534869_rrm_conference_room</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_security_acl_6de9831a83421e102b825e65eeaad334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 01:12:50</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</application>
+        <file_path/>
+        <instance_id>8b5fc4c5db0a1e50018f20c9139619f4</instance_id>
+        <instance_name>adf-nov20-136-003</instance_name>
+        <name>sys_security_acl_6de9831a83421e102b825e65eeaad334</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Local</local_or_existing>
+        <name>x_1534869_rrm_conference_room</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 01:12:50</sys_created_on>
+        <sys_id>6de9831a83421e102b825e65eeaad334</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1534869_rrm_conference_room</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_security_acl_6de9831a83421e102b825e65eeaad334</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 01:12:50</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>-1117696687</payload_hash>
+        <record_name>x_1534869_rrm_conference_room</record_name>
+        <reverted_from/>
+        <source>af2b675e4dc612107f443473ac2f731e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>t.gadson</sys_created_by>
+        <sys_created_on>2024-11-26 03:38:57</sys_created_on>
+        <sys_id>f15be39e4dc612107f443473ac2f7342</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193668d03630000001</sys_recorded_at>
+        <sys_updated_by>t.gadson</sys_updated_by>
+        <sys_updated_on>2024-11-26 03:38:57</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>b15be39ef8c61210f56dbd14179c3542</update_guid>
+        <update_guid_history>b15be39ef8c61210f56dbd14179c3542:-1117696687</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 17:34:02</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3c8c6df675ca44528b1856e7620b9819</sys_id>
+        <sys_metadata>6de9831a83421e102b825e65eeaad334</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1534869_rrm_conference_room</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_parent display_value="">743b675e4dc612107f443473ac2f73df</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_scope_delete display_value="">1d2a0a09fed841648369685ce5209690</sys_scope_delete>
+        <sys_update_name>sys_security_acl_6de9831a83421e102b825e65eeaad334</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_6de9831a83421e102b825e65eeaad334">f15be39e4dc612107f443473ac2f7342</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 17:34:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

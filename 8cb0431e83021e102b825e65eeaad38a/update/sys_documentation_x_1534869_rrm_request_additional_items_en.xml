@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="requested_by" label="Requested By" language="en" table="x_1534869_rrm_request">
+    <sys_documentation element="additional_items" label="Additional Items" language="en" table="x_1534869_rrm_request">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>requested_by</element>
+            <element>additional_items</element>
             <help/>
             <hint/>
-            <label>Requested By</label>
+            <label>Additional Items</label>
             <language>en</language>
             <name>x_1534869_rrm_request</name>
             <plural/>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>m.mackey</sys_created_by>
-            <sys_created_on>2024-11-27 20:00:45</sys_created_on>
-            <sys_mod_count>5</sys_mod_count>
-            <sys_name>Requested By</sys_name>
+            <sys_created_on>2024-12-02 22:19:04</sys_created_on>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_name>Additional Items</sys_name>
             <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
             <sys_policy/>
             <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
-            <sys_update_name>sys_documentation_x_1534869_rrm_request_requested_by_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_1534869_rrm_request_additional_items_en</sys_update_name>
             <sys_updated_by>m.mackey</sys_updated_by>
-            <sys_updated_on>2024-12-02 23:25:41</sys_updated_on>
+            <sys_updated_on>2024-12-02 22:19:05</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

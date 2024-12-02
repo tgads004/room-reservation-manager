@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="a0e9031a83421e102b825e65eeaad3a8" extends="cmdb_ci" label="Conference Room" max_length="40" name="x_1534869_rrm_conference_room" type="collection">
-        <element label="BLDG / Room Numer" mandatory="true" max_length="40" name="bldg_room_numer" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Number of Seats" mandatory="true" max_length="255" name="number_of_seats" type="integer"/>
-        <element label="Room Size" max_length="40" name="room_size" type="string"/>
-    </element>
-</database>

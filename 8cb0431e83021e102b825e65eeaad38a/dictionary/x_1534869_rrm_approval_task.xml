@@ -1,3 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="ebc3c31283421e102b825e65eeaad335" extends="task" label="Approval Task" max_length="40" name="x_1534869_rrm_approval_task" type="collection"/>
+    <element db_object_id="ebc3c31283421e102b825e65eeaad335" extends="task" label="Approval Task" max_length="40" name="x_1534869_rrm_approval_task" type="collection">
+        <element choice="1" label="Approval Type" max_length="40" name="approval_type" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Conference Room Request" sequence="0" value="Conference Room Request"/>
+                <element inactive_on_update="false" label="New Conference Room" sequence="1" value="New Conference Room"/>
+                <element inactive_on_update="false" label="Update Conference Room" sequence="2" value="Update Conference Room"/>
+            </choice>
+        </element>
+        <element label="Record Number" max_length="32" name="record_number" reference="x_1534869_rrm_confrence_rooms" type="reference"/>
+    </element>
 </database>

@@ -11,15 +11,15 @@
         <name>Conference Room Form Layout</name>
         <order/>
         <script><![CDATA[function onLoad() {
-	var beenUpdated = g_form.getValue("sys_updated_by") ;
+	var beenUpdated = g_form.getValue("updated_user") ;
 
     if (!beenUpdated) {
-		g_form.setDisplay('sys_updated_by', false);
-        g_form.setDisplay('sys_updated_on', false);
+		g_form.setDisplay('updated_user', false);
+        g_form.setDisplay('date_updated', false);
         g_form.setDisplay('update_description', false);
     } else {
-        g_form.setDisplay('sys_updated_by', true);
-        g_form.setDisplay('sys_updated_on', true);
+        g_form.setDisplay('updated_user', true);
+        g_form.setDisplay('date_updated', true);
         g_form.setDisplay('update_description', true);
     }
 }]]></script>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f4fa03e7240612107f44b673af299f01</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Conference Room Form Layout</sys_name>
         <sys_overrides/>
         <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_update_name>sys_script_client_f4fa03e7240612107f44b673af299f01</sys_update_name>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-11-29 22:54:22</sys_updated_on>
+        <sys_updated_on>2024-12-02 17:55:38</sys_updated_on>
         <table>x_1534869_rrm_confrence_rooms</table>
         <type>onLoad</type>
         <ui_type>0</ui_type>

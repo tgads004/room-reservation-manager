@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="DELETE">
+        <group/>
+        <hidden>false</hidden>
+        <name>Employee</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-11-27 19:13:15</sys_created_on>
+        <sys_id>39ca8c07098212107f445f17a51035e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_ui_view_39ca8c07098212107f445f17a51035e2</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-11-27 19:13:15</sys_updated_on>
+        <title>Employee</title>
+        <user/>
+    </sys_ui_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</application>
+        <file_path/>
+        <instance_id>8b5fc4c5db0a1e50018f20c9139619f4</instance_id>
+        <instance_name>adf-nov20-136-003</instance_name>
+        <name>sys_ui_view_39ca8c07098212107f445f17a51035e2</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view"><sys_ui_view action="INSERT_OR_UPDATE"><group/><hidden>false</hidden><name>Employee</name><roles/><sys_class_name>sys_ui_view</sys_class_name><sys_created_by>m.mackey</sys_created_by><sys_created_on>2024-11-27 19:13:15</sys_created_on><sys_id>39ca8c07098212107f445f17a51035e2</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Employee</sys_name><sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package><sys_policy/><sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope><sys_update_name>sys_ui_view_39ca8c07098212107f445f17a51035e2</sys_update_name><sys_updated_by>m.mackey</sys_updated_by><sys_updated_on>2024-11-27 19:13:15</sys_updated_on><title>Employee</title><user/></sys_ui_view></record_update>]]></payload>
+        <payload_hash>295527316</payload_hash>
+        <record_name>Employee</record_name>
+        <reverted_from/>
+        <source>d03e4924d41612107f4489ee789dc8a9</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 15:58:56</sys_created_on>
+        <sys_id>bb3e8d24d41612107f4489ee789dc86d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1938818a2e60000001</sys_recorded_at>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 15:58:56</sys_updated_on>
+        <type>UI View</type>
+        <update_guid>bdca8c070e821210a9657d8593f607e4</update_guid>
+        <update_guid_history>bdca8c070e821210a9657d8593f607e4:295527316,39498d6c8cd21210355501f7c02fa43f:1040246792,bdca8c070e821210a9657d8593f607e4:295527316</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 16:28:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_view">sys_ui_view</sys_db_object>
+        <sys_id>255831634e384e2e9d2ed712872bfba4</sys_id>
+        <sys_metadata>39ca8c07098212107f445f17a51035e2</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Employee</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_scope_delete display_value="">1d2a0a09fed841648369685ce5209690</sys_scope_delete>
+        <sys_update_name>sys_ui_view_39ca8c07098212107f445f17a51035e2</sys_update_name>
+        <sys_update_version display_value="sys_ui_view_39ca8c07098212107f445f17a51035e2">bb3e8d24d41612107f4489ee789dc86d</sys_update_version>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 16:28:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
