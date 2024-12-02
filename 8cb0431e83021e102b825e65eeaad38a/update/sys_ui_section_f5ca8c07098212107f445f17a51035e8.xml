@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Description about the conference room" section_id="f5ca8c07098212107f445f17a51035e8" sys_domain="global" table="x_1534869_rrm_confrence_rooms" version="3" view="Employee">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>0</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-27 19:13:16</sys_created_on>
+            <sys_id>8ecacc07098212107f445f17a510353d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description about the conference room" display_value="Description about the conference room" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="39ca8c07098212107f445f17a51035e2">f5ca8c07098212107f445f17a51035e8</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-27 19:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-27 19:13:16</sys_created_on>
+            <sys_id>86cacc07098212107f445f17a510353e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description about the conference room" display_value="Description about the conference room" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="39ca8c07098212107f445f17a51035e2">f5ca8c07098212107f445f17a51035e8</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-27 19:13:16</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>2</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-27 19:13:16</sys_created_on>
+            <sys_id>8ecacc07098212107f445f17a510353e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description about the conference room" display_value="Description about the conference room" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="39ca8c07098212107f445f17a51035e2">f5ca8c07098212107f445f17a51035e8</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-27 19:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_by</element>
+            <position>3</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-27 19:13:16</sys_created_on>
+            <sys_id>86cacc07098212107f445f17a510353f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description about the conference room" display_value="Description about the conference room" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="39ca8c07098212107f445f17a51035e2">f5ca8c07098212107f445f17a51035e8</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-27 19:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>4</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-27 19:13:16</sys_created_on>
+            <sys_id>8ecacc07098212107f445f17a510353f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description about the conference room" display_value="Description about the conference room" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="39ca8c07098212107f445f17a51035e2">f5ca8c07098212107f445f17a51035e8</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-27 19:13:16</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>5</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-27 19:13:16</sys_created_on>
+            <sys_id>86cacc07098212107f445f17a5103540</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description about the conference room" display_value="Description about the conference room" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="39ca8c07098212107f445f17a51035e2">f5ca8c07098212107f445f17a51035e8</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-27 19:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>6</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-27 19:13:16</sys_created_on>
+            <sys_id>8ecacc07098212107f445f17a5103540</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description about the conference room" display_value="Description about the conference room" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="39ca8c07098212107f445f17a51035e2">f5ca8c07098212107f445f17a51035e8</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-27 19:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>7</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-27 19:13:16</sys_created_on>
+            <sys_id>86cacc07098212107f445f17a5103541</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description about the conference room" display_value="Description about the conference room" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="39ca8c07098212107f445f17a51035e2">f5ca8c07098212107f445f17a51035e8</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-27 19:13:16</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>update_description</element>
+            <position>8</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-27 19:13:16</sys_created_on>
+            <sys_id>8ecacc07098212107f445f17a5103541</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Description about the conference room" display_value="Description about the conference room" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="39ca8c07098212107f445f17a51035e2">f5ca8c07098212107f445f17a51035e8</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-27 19:13:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Description about the conference room</caption>
+            <header>false</header>
+            <name>x_1534869_rrm_confrence_rooms</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-27 19:13:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5ca8c07098212107f445f17a51035e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1534869_rrm_confrence_rooms</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+            <sys_update_name>sys_ui_section_f5ca8c07098212107f445f17a51035e8</sys_update_name>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-27 19:13:16</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Employee" name="Employee">39ca8c07098212107f445f17a51035e2</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

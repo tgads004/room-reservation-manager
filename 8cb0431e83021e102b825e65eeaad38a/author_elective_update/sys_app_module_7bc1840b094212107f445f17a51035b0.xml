@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Room Reservation Manager">ad5a8b5283421e102b825e65eeaad388</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Confrence Rooms</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_1534869_rrm_confrence_rooms</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_1534869_rrm.confrence_rooms_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-11-27 18:34:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7bc1840b094212107f445f17a51035b0</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Conference Rooms</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_app_module_7bc1840b094212107f445f17a51035b0</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-11-27 18:35:49</sys_updated_on>
+        <timeline_page/>
+        <title>Conference Rooms</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</application>
+        <file_path/>
+        <instance_id>8b5fc4c5db0a1e50018f20c9139619f4</instance_id>
+        <instance_name>adf-nov20-136-003</instance_name>
+        <name>sys_app_module_7bc1840b094212107f445f17a51035b0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Room Reservation Manager">ad5a8b5283421e102b825e65eeaad388</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Confrence Rooms</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_1534869_rrm_confrence_rooms</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>x_1534869_rrm.confrence_rooms_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>m.mackey</sys_created_by><sys_created_on>2024-11-27 18:34:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>7bc1840b094212107f445f17a51035b0</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Conference Rooms</sys_name><sys_overrides/><sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package><sys_policy/><sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope><sys_update_name>sys_app_module_7bc1840b094212107f445f17a51035b0</sys_update_name><sys_updated_by>m.mackey</sys_updated_by><sys_updated_on>2024-11-27 18:35:49</sys_updated_on><timeline_page/><title>Conference Rooms</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>-1007703972</payload_hash>
+        <record_name>Conference Rooms</record_name>
+        <reverted_from/>
+        <source>5520c2eafd4212107f44cbc5e79b060c</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-11-27 18:35:49</sys_created_on>
+        <sys_id>5932804b094212107f445f17a51035aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1936ee879ae0000001</sys_recorded_at>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-11-27 18:35:49</sys_updated_on>
+        <type>Module</type>
+        <update_guid>1132804beb421210c1621a607e8488aa</update_guid>
+        <update_guid_history>1132804beb421210c1621a607e8488aa:-1007703972,b7c1840b3d4212107552ae99a66084b2:25028598</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Conference Rooms">710fc08b098212107f445f17a5103558</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-11-27 19:31:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>e281c5f832b04679bb23d0595dd5a7c9</sys_id>
+        <sys_metadata>7bc1840b094212107f445f17a51035b0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conference Rooms</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_scope_delete display_value="">1d2a0a09fed841648369685ce5209690</sys_scope_delete>
+        <sys_update_name>sys_app_module_7bc1840b094212107f445f17a51035b0</sys_update_name>
+        <sys_update_version display_value="sys_app_module_7bc1840b094212107f445f17a51035b0">5932804b094212107f445f17a51035aa</sys_update_version>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-11-27 19:31:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4881ccc7094212107f445f17a51035c5" label="Conference Rooms" max_length="40" name="x_1534869_rrm_confrence_rooms" type="collection">
+        <element label="Asset tag" max_length="40" name="asset_tag" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Company" mandatory="true" max_length="40" name="company" reference="core_company" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Conference Room Type" mandatory="true" max_length="40" name="conference_room_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Guest Speaker (Large Room)" sequence="0" value="GuestSpeaker"/>
+                <element inactive_on_update="false" label="Training (Medium Size)" sequence="1" value="Training"/>
+                <element inactive_on_update="false" label="Meetings (Smaller)" sequence="2" value="Meetings"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Connections" mandatory="true" max_length="40" name="connections" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Wireless Only Internet" sequence="0" value="Wireless"/>
+                <element inactive_on_update="false" label="Wired and Wireless Internet" sequence="1" value="Both"/>
+                <element inactive_on_update="false" label="Wired Only Internet" sequence="2" value="Wired"/>
+                <element inactive_on_update="false" label="No Internet Available" sequence="3" value="None"/>
+            </choice>
+        </element>
+        <element label="Description" mandatory="true" max_length="40" name="description" type="string"/>
+        <element hint="Room number and building if more than one structure." label="Location" mandatory="true" max_length="40" name="location" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Number of Seats in room - not max amount" label="Number of Seats" mandatory="true" max_length="255" name="number_of_seats" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" hint="Input dimensions in Inches" label="Room Length" max_length="40" name="room_size" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Available/Cleaned" sequence="0" value="Available"/>
+                <element inactive_on_update="false" label="Reserved" sequence="1" value="Reserved"/>
+                <element inactive_on_update="false" label="Currently in Use" sequence="2" value="Currently in Use"/>
+                <element inactive_on_update="false" label="Cleaning Scheduled" sequence="3" value="Cleaning Scheduled"/>
+                <element inactive_on_update="false" label="Being Cleanned" sequence="4" value="Being Cleanned"/>
+                <element inactive_on_update="false" label="Waiting Approval" sequence="5" value="Waiting Approval"/>
+            </choice>
+        </element>
+        <element label="Update Description" max_length="40" name="update_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Input dimensions in Inches" label=" Room Width" max_length="38" name="width" type="decimal"/>
+        <index name="index">
+            <element name="company"/>
+        </index>
+    </element>
+</database>

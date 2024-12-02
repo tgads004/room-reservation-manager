@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_1534869_rrm_confrence_rooms" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_1534869_rrm_confrence_rooms" element="NULL" name="x_1534869_rrm_confrence_rooms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bede36a724c212107f44b673af299f5c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:37:01</sys_created_on>
+            <sys_id>fede36a724c212107f44b673af299f5d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:37:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>company</element>
+            <list_id display_value="x_1534869_rrm_confrence_rooms" element="NULL" name="x_1534869_rrm_confrence_rooms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bede36a724c212107f44b673af299f5c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:37:01</sys_created_on>
+            <sys_id>76de36a724c212107f44b673af299f5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:37:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>location</element>
+            <list_id display_value="x_1534869_rrm_confrence_rooms" element="NULL" name="x_1534869_rrm_confrence_rooms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bede36a724c212107f44b673af299f5c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:37:01</sys_created_on>
+            <sys_id>f6de36a724c212107f44b673af299f5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:37:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_1534869_rrm_confrence_rooms" element="NULL" name="x_1534869_rrm_confrence_rooms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bede36a724c212107f44b673af299f5c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:37:01</sys_created_on>
+            <sys_id>7ade36a724c212107f44b673af299f5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:37:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>conference_room_type</element>
+            <list_id display_value="x_1534869_rrm_confrence_rooms" element="NULL" name="x_1534869_rrm_confrence_rooms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bede36a724c212107f44b673af299f5c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:37:01</sys_created_on>
+            <sys_id>fade36a724c212107f44b673af299f5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:37:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number_of_seats</element>
+            <list_id display_value="x_1534869_rrm_confrence_rooms" element="NULL" name="x_1534869_rrm_confrence_rooms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bede36a724c212107f44b673af299f5c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:37:01</sys_created_on>
+            <sys_id>7ede36a724c212107f44b673af299f5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:37:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>connections</element>
+            <list_id display_value="x_1534869_rrm_confrence_rooms" element="NULL" name="x_1534869_rrm_confrence_rooms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bede36a724c212107f44b673af299f5c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:37:01</sys_created_on>
+            <sys_id>fede36a724c212107f44b673af299f5e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:37:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>room_size</element>
+            <list_id display_value="x_1534869_rrm_confrence_rooms" element="NULL" name="x_1534869_rrm_confrence_rooms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bede36a724c212107f44b673af299f5c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:37:01</sys_created_on>
+            <sys_id>72de36a724c212107f44b673af299f5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:37:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>description</element>
+            <list_id display_value="x_1534869_rrm_confrence_rooms" element="NULL" name="x_1534869_rrm_confrence_rooms" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">bede36a724c212107f44b673af299f5c</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:37:01</sys_created_on>
+            <sys_id>f2de36a724c212107f44b673af299f5f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:37:01</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_1534869_rrm_confrence_rooms</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:37:01</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bede36a724c212107f44b673af299f5c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1534869_rrm_confrence_rooms</sys_name>
+            <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+            <sys_update_name>sys_ui_list_x_1534869_rrm_confrence_rooms_null</sys_update_name>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:37:01</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

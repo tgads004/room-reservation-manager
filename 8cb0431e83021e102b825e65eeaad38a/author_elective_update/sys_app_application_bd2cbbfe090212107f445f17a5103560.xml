@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>New Conference Room</name>
+        <order>100</order>
+        <roles>x_1534869_rrm.new_conference_room_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-11-27 18:09:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bd2cbbfe090212107f445f17a5103560</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Conference Room</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_app_application_bd2cbbfe090212107f445f17a5103560</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-11-27 18:09:22</sys_updated_on>
+        <title>New Conference Room</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</application>
+        <file_path/>
+        <instance_id>8b5fc4c5db0a1e50018f20c9139619f4</instance_id>
+        <instance_name>adf-nov20-136-003</instance_name>
+        <name>sys_app_application_bd2cbbfe090212107f445f17a5103560</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>New Conference Room</name><order>100</order><roles>x_1534869_rrm.new_conference_room_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>m.mackey</sys_created_by><sys_created_on>2024-11-27 18:09:22</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>bd2cbbfe090212107f445f17a5103560</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Conference Room</sys_name><sys_overrides/><sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package><sys_policy/><sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope><sys_update_name>sys_app_application_bd2cbbfe090212107f445f17a5103560</sys_update_name><sys_updated_by>m.mackey</sys_updated_by><sys_updated_on>2024-11-27 18:09:22</sys_updated_on><title>New Conference Room</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1995873799</payload_hash>
+        <record_name>New Conference Room</record_name>
+        <reverted_from/>
+        <source>5520c2eafd4212107f44cbc5e79b060c</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-11-27 18:09:22</sys_created_on>
+        <sys_id>b52cbbfe090212107f445f17a5103564</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1936ed043560000001</sys_recorded_at>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-11-27 18:09:22</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>792cbbfed2021210966e182fa42b7063</update_guid>
+        <update_guid_history>792cbbfed2021210966e182fa42b7063:1995873799</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Conference Room">f1f1c80b094212107f445f17a51035ee</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-11-27 18:34:46</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>2088a3a87a2049e8930533c28b8154c1</sys_id>
+        <sys_metadata>bd2cbbfe090212107f445f17a5103560</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Conference Room</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_scope_delete display_value="">1d2a0a09fed841648369685ce5209690</sys_scope_delete>
+        <sys_update_name>sys_app_application_bd2cbbfe090212107f445f17a5103560</sys_update_name>
+        <sys_update_version display_value="sys_app_application_bd2cbbfe090212107f445f17a5103560">b52cbbfe090212107f445f17a5103564</sys_update_version>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-11-27 18:34:46</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

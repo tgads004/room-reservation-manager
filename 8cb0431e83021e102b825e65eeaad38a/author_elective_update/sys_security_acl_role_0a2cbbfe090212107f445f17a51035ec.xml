@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-11-27 18:09:23</sys_created_on>
+        <sys_id>0a2cbbfe090212107f445f17a51035ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1534869_rrm_new_conference_room.x_1534869_rrm.new_conference_room_user</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_security_acl display_value="x_1534869_rrm_new_conference_room">862cbbfe090212107f445f17a51035e9</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_0a2cbbfe090212107f445f17a51035ec</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-11-27 18:09:23</sys_updated_on>
+        <sys_user_role display_value="x_1534869_rrm.new_conference_room_user" name="x_1534869_rrm.new_conference_room_user">b92c73be090212107f445f17a510356a</sys_user_role>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</application>
+        <file_path/>
+        <instance_id>8b5fc4c5db0a1e50018f20c9139619f4</instance_id>
+        <instance_name>adf-nov20-136-003</instance_name>
+        <name>sys_security_acl_role_0a2cbbfe090212107f445f17a51035ec</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>m.mackey</sys_created_by><sys_created_on>2024-11-27 18:09:23</sys_created_on><sys_id>0a2cbbfe090212107f445f17a51035ec</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_1534869_rrm_new_conference_room.x_1534869_rrm.new_conference_room_user</sys_name><sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package><sys_policy/><sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope><sys_security_acl display_value="x_1534869_rrm_new_conference_room">862cbbfe090212107f445f17a51035e9</sys_security_acl><sys_update_name>sys_security_acl_role_0a2cbbfe090212107f445f17a51035ec</sys_update_name><sys_updated_by>m.mackey</sys_updated_by><sys_updated_on>2024-11-27 18:09:23</sys_updated_on><sys_user_role display_value="x_1534869_rrm.new_conference_room_user" name="x_1534869_rrm.new_conference_room_user">b92c73be090212107f445f17a510356a</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>-763172844</payload_hash>
+        <record_name>x_1534869_rrm_new_conference_room.x_1534869_rrm.new_conference_room_user</record_name>
+        <reverted_from/>
+        <source>5520c2eafd4212107f44cbc5e79b060c</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-11-27 18:09:23</sys_created_on>
+        <sys_id>062cbbfe090212107f445f17a51035ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1936ed047dc0000001</sys_recorded_at>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-11-27 18:09:23</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>0a2cbbfe1a02121091f922d0e69bcbee</update_guid>
+        <update_guid_history>0a2cbbfe1a02121091f922d0e69bcbee:-763172844</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_1534869_rrm_new_conference_room.x_1534869_rrm.new_conference_room_user">a1fc7f32094212107f445f17a5103538</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-11-27 18:12:54</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>22ab1e64bd304cac9804ce33bd7f5139</sys_id>
+        <sys_metadata>0a2cbbfe090212107f445f17a51035ec</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1534869_rrm_new_conference_room.x_1534869_rrm.new_conference_room_user</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_parent display_value="">862cbbfe090212107f445f17a51035e9</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_scope_delete display_value="">1d2a0a09fed841648369685ce5209690</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_0a2cbbfe090212107f445f17a51035ec</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_0a2cbbfe090212107f445f17a51035ec">062cbbfe090212107f445f17a51035ef</sys_update_version>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-11-27 18:12:54</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,3 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="c41c4b5a83421e102b825e65eeaad33d" extends="task" label="Request" max_length="40" name="x_1534869_rrm_request" type="collection"/>
+    <element db_object_id="c41c4b5a83421e102b825e65eeaad33d" extends="task" label="Request" max_length="40" name="x_1534869_rrm_request" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Conference Room" mandatory="true" max_length="32" name="conference_room" reference="x_1534869_rrm_confrence_rooms" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requested By" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Supervisor" max_length="32" name="supervisor" reference="sys_user" type="reference"/>
+    </element>
 </database>

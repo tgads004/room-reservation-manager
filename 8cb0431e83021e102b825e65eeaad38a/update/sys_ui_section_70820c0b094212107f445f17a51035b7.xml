@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="70820c0b094212107f445f17a51035b7" sys_domain="global" table="x_1534869_rrm_confrence_rooms" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>7c210b6b24c212107f44b673af299f1b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <position>1</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>74210b6b24c212107f44b673af299f1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>conference_room_type</element>
+            <position>2</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>7c210b6b24c212107f44b673af299f1c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>74210b6b24c212107f44b673af299f1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>4</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>7c210b6b24c212107f44b673af299f1d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number_of_seats</element>
+            <position>5</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>74210b6b24c212107f44b673af299f1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>connections</element>
+            <position>6</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>7c210b6b24c212107f44b673af299f1e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>74210b6b24c212107f44b673af299f1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>8</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>7c210b6b24c212107f44b673af299f1f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>9</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>74210b6b24c212107f44b673af299f20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>room_size</element>
+            <position>10</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>7c210b6b24c212107f44b673af299f20</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>11</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>74210b6b24c212107f44b673af299f21</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>width</element>
+            <position>12</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>34210b6b24c212107f44b673af299f2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>13</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>3c210b6b24c212107f44b673af299f2e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>14</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>34210b6b24c212107f44b673af299f2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>15</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>3c210b6b24c212107f44b673af299f2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_by</element>
+            <position>16</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>34210b6b24c212107f44b673af299f30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_by</element>
+            <position>17</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>3c210b6b24c212107f44b673af299f30</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>18</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>34210b6b24c212107f44b673af299f31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_created_on</element>
+            <position>19</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>3c210b6b24c212107f44b673af299f31</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>sys_updated_on</element>
+            <position>20</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>34210b6b24c212107f44b673af299f32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>21</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>3c210b6b24c212107f44b673af299f32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>update_description</element>
+            <position>22</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-29 21:46:59</sys_created_on>
+            <sys_id>34210b6b24c212107f44b673af299f33</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_confrence_rooms" sys_domain="global" view="Default view">70820c0b094212107f445f17a51035b7</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-29 21:46:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_1534869_rrm_confrence_rooms</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-11-27 18:37:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>70820c0b094212107f445f17a51035b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1534869_rrm_confrence_rooms</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+            <sys_update_name>sys_ui_section_70820c0b094212107f445f17a51035b7</sys_update_name>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-11-27 18:37:09</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
