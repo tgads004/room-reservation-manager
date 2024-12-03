@@ -7,6 +7,7 @@
                 <element inactive_on_update="false" label="Update Conference Room" sequence="2" value="Update Conference Room"/>
             </choice>
         </element>
-        <element label="Record Number" max_length="32" name="record_number" reference="x_1534869_rrm_confrence_rooms" type="reference"/>
+        <element label="Conference Room" max_length="32" name="record_number" read_only="true" reference="x_1534869_rrm_confrence_rooms" type="reference"/>
+        <element label="Request Record" max_length="32" name="request_record" read_only="true" reference="x_1534869_rrm_request" type="reference"/>
     </element>
 </database>

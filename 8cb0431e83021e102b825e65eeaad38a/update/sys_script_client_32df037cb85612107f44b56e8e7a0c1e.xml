@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hide Password field if not required and show when required</description>
+        <field>connections</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Conference Room Wifi Password</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var password = g_form.getValue("connections");
+
+    if (password == 'Wired' || password == 'None') {
+        g_form.setDisplay('wifi_password', false);
+        g_form.setMandatory('wifi_password', false);
+    } else {
+        g_form.setDisplay('wifi_password', true);
+        g_form.setMandatory('wifi_password', true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 20:05:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32df037cb85612107f44b56e8e7a0c1e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Conference Room Wifi Password</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_script_client_32df037cb85612107f44b56e8e7a0c1e</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 20:27:02</sys_updated_on>
+        <table>x_1534869_rrm_confrence_rooms</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

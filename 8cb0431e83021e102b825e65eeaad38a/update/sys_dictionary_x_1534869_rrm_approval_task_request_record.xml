@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="state" table="x_1534869_rrm_confrence_rooms">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="request_record" table="x_1534869_rrm_approval_task">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>1</choice>
+        <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>State</column_label>
+        <column_label>Request Record</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,21 +21,21 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>state</element>
+        <element>request_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="Reference">reference</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
-        <name>x_1534869_rrm_confrence_rooms</name>
+        <max_length>32</max_length>
+        <name>x_1534869_rrm_approval_task</name>
         <next_element/>
         <primary>false</primary>
         <read_only>true</read_only>
         <read_roles/>
-        <reference/>
+        <reference display_value="" name="x_1534869_rrm_request">x_1534869_rrm_request</reference>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -46,14 +46,14 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
-        <sys_created_on>2024-11-29 20:11:55</sys_created_on>
-        <sys_name>State</sys_name>
+        <sys_created_on>2024-12-03 21:14:57</sys_created_on>
+        <sys_name>Request Record</sys_name>
         <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
-        <sys_update_name>sys_dictionary_x_1534869_rrm_confrence_rooms_state</sys_update_name>
+        <sys_update_name>sys_dictionary_x_1534869_rrm_approval_task_request_record</sys_update_name>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-03 17:21:42</sys_updated_on>
+        <sys_updated_on>2024-12-03 21:15:32</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -3,7 +3,7 @@
         <element label="Additional Items" max_length="1024" name="additional_items" reference="cmdb_ci" type="glide_list"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Conference Room" mandatory="true" max_length="32" name="conference_room" reference="x_1534869_rrm_confrence_rooms" type="reference"/>
         <element label="Food Services" max_length="1024" name="food_services" reference="core_company" type="glide_list"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requested By" max_length="32" name="requested_by" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Requested By" mandatory="true" max_length="32" name="requested_by" reference="sys_user" type="reference"/>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Supervisor" max_length="32" name="supervisor" reference="sys_user" type="reference"/>
     </element>
 </database>

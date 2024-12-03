@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="fbfa7f3cb85a12107f44b56e8e7a0ce9" sys_domain="global" table="x_1534869_rrm_assignment_task" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-12-03 23:12:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c0b7f3cb85a12107f44b56e8e7a0ced</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_1534869_rrm_assignment_task" name="x_1534869_rrm_assignment_task" sys_domain="global" view="Default view">fbfa7f3cb85a12107f44b56e8e7a0ce9</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_1534869_rrm_assignment_task" sys_domain="global" view="Default view">c4dbcb9a83421e102b825e65eeaad3dc</sys_ui_section>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-12-03 23:12:11</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_1534869_rrm_assignment_task</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>m.mackey</sys_created_by>
+            <sys_created_on>2024-12-03 23:12:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fbfa7f3cb85a12107f44b56e8e7a0ce9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_1534869_rrm_assignment_task</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+            <sys_update_name>sys_ui_form_sections_fbfa7f3cb85a12107f44b56e8e7a0ce9</sys_update_name>
+            <sys_updated_by>m.mackey</sys_updated_by>
+            <sys_updated_on>2024-12-03 23:12:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>
