@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>updated_user</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-04 18:19:51</sys_created_on>
+        <sys_id>e4a144d9e01612107f44e4f1fbb063cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>updated_user</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_ui_policy_action_e4a144d9e01612107f44e4f1fbb063cb</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-04 18:19:51</sys_updated_on>
+        <table>x_1534869_rrm_confrence_rooms</table>
+        <ui_policy display_value="Hide Update field">5c6100d9e01612107f44e4f1fbb06338</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>false</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=e4a144d9e01612107f44e4f1fbb063cb"/>
+</record_update>
