@@ -1,0 +1,2764 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=87726000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>update_conference_room_request</internal_name>
+        <label_cache>[{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_request","column_name":"number","usedInstances":{"1bd5750d-66d7-436b-b377-4df6beb2cc9f":["description"],"5405ba7c-ebbf-45e9-bb57-a956d81c377f":["description"],"3771c6bd-adf8-498b-8c7e-e4d9374ba1cc":["field_values"],"b5420e70-7e4a-4ffd-a7a4-e5529bd401d6":["field_values"]}},{"name":"Updated_1.current.food_services","label":"Trigger - Record Updated➛Request Record➛Food Services","reference":"core_company","reference_display":"Company","type":"glide_list","base_type":"glide_list","parent_table_name":"x_1534869_rrm_request","column_name":"food_services","usedInstances":{"dadd741a-0f7b-430c-b7fc-30c77fc30c19":["condition"],"8588bf57-04fe-40b1-9d41-5ba28a6c13bc":["description"],"c1e45445-ce26-4c3b-8511-f7210277d17d":["condition"],"c86f2950-ebb9-4702-8b00-fbb91b417307":["condition"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["field_values"],"1bd5750d-66d7-436b-b377-4df6beb2cc9f":["description"]}},{"name":"Updated_1.current.work_start","label":"Trigger - Record Updated➛Request Record➛Requested Date","reference":"","reference_display":"Requested Date","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["description"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["field_values"],"3771c6bd-adf8-498b-8c7e-e4d9374ba1cc":["field_values"],"b5420e70-7e4a-4ffd-a7a4-e5529bd401d6":["field_values"]}},{"name":"Updated_1.current.requested_by","label":"Trigger - Record Updated➛Request Record➛Requested By","reference":"","reference_display":"Requested By","type":"string","base_type":"string","usedInstances":{"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["description"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["field_values"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Request Record","reference":"x_1534869_rrm_request","reference_display":"Request","type":"reference","base_type":"reference","usedInstances":{"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["record_number","room_reserve_number"],"8588bf57-04fe-40b1-9d41-5ba28a6c13bc":["record_number","room_reserve_number"],"1bd5750d-66d7-436b-b377-4df6beb2cc9f":["room_reserve_number","description"],"5405ba7c-ebbf-45e9-bb57-a956d81c377f":["room_reserve_number","description"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["field_values"],"3771c6bd-adf8-498b-8c7e-e4d9374ba1cc":["field_values"],"b5420e70-7e4a-4ffd-a7a4-e5529bd401d6":["field_values"]},"attributes":{}},{"name":"Updated_1.current.additional_items","label":"Trigger - Record Updated➛Request Record➛Additional Items","reference":"cmdb_ci","reference_display":"Configuration Item","type":"glide_list","base_type":"glide_list","parent_table_name":"x_1534869_rrm_request","column_name":"additional_items","usedInstances":{"dadd741a-0f7b-430c-b7fc-30c77fc30c19":["condition"],"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["description"],"4eba0a8a-e31d-482c-b0d0-45e151046263":["condition"],"c86f2950-ebb9-4702-8b00-fbb91b417307":["condition"],"c9c82b54-c874-4d04-827b-d77ed8cbdf4d":["condition"]}},{"name":"Updated_1.current.conference_room","label":"Trigger - Record Updated➛Request Record➛Conference Room","reference":"x_1534869_rrm_confrence_rooms","reference_display":"Conference Rooms","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_request","column_name":"conference_room","usedInstances":{"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["description"],"71684434-7e70-4375-b257-41e2e25717a2":["record"],"6c2af503-e448-4022-818e-86e83ab6d379":["record"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["field_values"],"1bd5750d-66d7-436b-b377-4df6beb2cc9f":["short_description","record_number"],"5405ba7c-ebbf-45e9-bb57-a956d81c377f":["record_number"],"3771c6bd-adf8-498b-8c7e-e4d9374ba1cc":["field_values"],"b5420e70-7e4a-4ffd-a7a4-e5529bd401d6":["field_values"]}},{"name":"Updated_1.current.state","label":"Trigger - Record Updated➛Request Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","usedInstances":{"e4c5e2e1-fc94-40ea-8e9d-63b7d1ddd63a":["condition"]}},{"name":"Updated_1.current.conference_room.number","label":"Trigger - Record Updated➛Request Record➛Conference Room➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_confrence_rooms","column_name":"number","usedInstances":{"1bd5750d-66d7-436b-b377-4df6beb2cc9f":["record_number","description","short_description"],"5405ba7c-ebbf-45e9-bb57-a956d81c377f":["record_number","description","short_description"],"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["record_number"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["record_number"],"3771c6bd-adf8-498b-8c7e-e4d9374ba1cc":["field_values"],"b5420e70-7e4a-4ffd-a7a4-e5529bd401d6":["field_values"]}}]</label_cache>
+        <master_snapshot>c4924449b89a12107f44b56e8e7a0cb5</master_snapshot>
+        <name>Update Room Request</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>70928449b89a12107f44b56e8e7a0cad</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:23:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>26e3f2e8d41e12107f4489ee789dc86d</sys_id>
+        <sys_mod_count>139</sys_mod_count>
+        <sys_name>Update Room Request</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_hub_flow_26e3f2e8d41e12107f4489ee789dc86d</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=26e3f2e8d41e12107f4489ee789dc86d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=26e3f2e8d41e12107f4489ee789dc86d"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_1534869_rrm_request">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>70928449b89a12107f44b56e8e7a0cad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:17</sys_updated_on>
+        <table>x_1534869_rrm_request</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>26e3f2e8d41e12107f4489ee789dc86d</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:17</sys_created_on>
+        <sys_id>f8928449b89a12107f44b56e8e7a0cad</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:17</sys_updated_on>
+        <trigger display_value="">70928449b89a12107f44b56e8e7a0cad</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=26e3f2e8d41e12107f4489ee789dc86d^sys_idNOT INf8928449b89a12107f44b56e8e7a0cad"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=26e3f2e8d41e12107f4489ee789dc86d^sys_idNOT IN41047e2cd41e12107f4489ee789dc875"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:23:34</sys_created_on>
+        <sys_id>41047e2cd41e12107f4489ee789dc875</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:17</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=41047e2cd41e12107f4489ee789dc875"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>41047e2cd41e12107f4489ee789dc875</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:23:34</sys_created_on>
+        <sys_id>01047e2cd41e12107f4489ee789dc876</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:30:01</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>41047e2cd41e12107f4489ee789dc875</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:23:34</sys_created_on>
+        <sys_id>c1047e2cd41e12107f4489ee789dc876</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:23:34</sys_updated_on>
+        <value>x_1534869_rrm_request</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=41047e2cd41e12107f4489ee789dc875"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=26e3f2e8d41e12107f4489ee789dc86d"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=26e3f2e8d41e12107f4489ee789dc86d^sys_idNOT IN62e3f2e8d41e12107f4489ee789dc86e"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>26e3f2e8d41e12107f4489ee789dc86d</id>
+        <name>Update Conference Room Request</name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:23:07</sys_created_on>
+        <sys_id>62e3f2e8d41e12107f4489ee789dc86e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:23:07</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=62e3f2e8d41e12107f4489ee789dc86e"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=26e3f2e8d41e12107f4489ee789dc86d^sys_idNOT IN5f55beacd41e12107f4489ee789dc87d,9b55beacd41e12107f4489ee789dc885,db55beacd41e12107f4489ee789dc86e"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</model>
+        <model_id>26e3f2e8d41e12107f4489ee789dc86d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_26e3f2e8d41e12107f4489ee789dc86d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:29:28</sys_created_on>
+        <sys_id>5f55beacd41e12107f4489ee789dc87d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=5f55beacd41e12107f4489ee789dc87d"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ac7782bd21c102107f44464a0e4a8a7a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</model>
+        <model_id>26e3f2e8d41e12107f4489ee789dc86d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_26e3f2e8d41e12107f4489ee789dc86d</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:29:28</sys_created_on>
+        <sys_id>9b55beacd41e12107f4489ee789dc885</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:29:28</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9b55beacd41e12107f4489ee789dc885"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</model>
+        <model_id>26e3f2e8d41e12107f4489ee789dc86d</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_26e3f2e8d41e12107f4489ee789dc86d</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:29:27</sys_created_on>
+        <sys_id>db55beacd41e12107f4489ee789dc86e</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=db55beacd41e12107f4489ee789dc86e"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=26e3f2e8d41e12107f4489ee789dc86d"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=26e3f2e8d41e12107f4489ee789dc86d"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=26e3f2e8d41e12107f4489ee789dc86d^sys_idNOT IN59204805b89a12107f44b56e8e7a0c72,72463aecd41e12107f4489ee789dc877,82e8bee0d45e12107f4489ee789dc839,b8f87ae0d45e12107f4489ee789dc881,ca16feecd41e12107f4489ee789dc8ff,d210c405b89a12107f44b56e8e7a0c6e"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>Additional Items</comment>
+        <display_text/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>c9c82b54-c874-4d04-827b-d77ed8cbdf4d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:34:41</sys_created_on>
+        <sys_id>59204805b89a12107f44b56e8e7a0c72</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>b5420e70-7e4a-4ffd-a7a4-e5529bd401d6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=59204805b89a12107f44b56e8e7a0c72"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>59204805b89a12107f44b56e8e7a0c72</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:34:41</sys_created_on>
+        <sys_id>11204805b89a12107f44b56e8e7a0c74</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:34:41</sys_updated_on>
+        <value>x_1534869_rrm_assignment_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=59204805b89a12107f44b56e8e7a0c72"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>59204805b89a12107f44b56e8e7a0c72</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:34:41</sys_created_on>
+        <sys_id>9d204805b89a12107f44b56e8e7a0c73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:34:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>state=1^task_type=Equipment^priority=4^record_number={{Updated_1.current.conference_room}}^description={{Updated_1.current.number}} is requesting additional Items for conference room {{Updated_1.current.conference_room.number}} which is scheduled for use on {{Updated_1.current.work_start}}. View request for list of request items.{{Updated_1.current.number}}^room_reserve_number={{Updated_1.current}}^short_description=Conference room {{Updated_1.current.conference_room.number}} is requesting additional equipment.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>59204805b89a12107f44b56e8e7a0c72</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:34:41</sys_created_on>
+        <sys_id>d9204805b89a12107f44b56e8e7a0c73</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:34:41</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=59204805b89a12107f44b56e8e7a0c72"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=59204805b89a12107f44b56e8e7a0c72"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:32</sys_created_on>
+        <sys_id>72463aecd41e12107f4489ee789dc877</sys_id>
+        <sys_mod_count>44</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>71684434-7e70-4375-b257-41e2e25717a2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=72463aecd41e12107f4489ee789dc877"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>72463aecd41e12107f4489ee789dc877</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:47</sys_created_on>
+        <sys_id>26567220d45e12107f4489ee789dc85c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:33:47</sys_updated_on>
+        <value>state=Reserved</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>72463aecd41e12107f4489ee789dc877</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:47</sys_created_on>
+        <sys_id>e6567220d45e12107f4489ee789dc85c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:33:47</sys_updated_on>
+        <value>x_1534869_rrm_confrence_rooms</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=72463aecd41e12107f4489ee789dc877"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>72463aecd41e12107f4489ee789dc877</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:47</sys_created_on>
+        <sys_id>a2567220d45e12107f4489ee789dc85c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:33:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current.conference_room}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>72463aecd41e12107f4489ee789dc877</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:47</sys_created_on>
+        <sys_id>2e567220d45e12107f4489ee789dc85b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:33:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>72463aecd41e12107f4489ee789dc877</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:47</sys_created_on>
+        <sys_id>ee567220d45e12107f4489ee789dc85b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:33:47</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=72463aecd41e12107f4489ee789dc877"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=72463aecd41e12107f4489ee789dc877"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>Food Service</comment>
+        <display_text/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>c86f2950-ebb9-4702-8b00-fbb91b417307</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:44:57</sys_created_on>
+        <sys_id>82e8bee0d45e12107f4489ee789dc839</sys_id>
+        <sys_mod_count>70</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>1bd5750d-66d7-436b-b377-4df6beb2cc9f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=82e8bee0d45e12107f4489ee789dc839"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>82e8bee0d45e12107f4489ee789dc839</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:44:57</sys_created_on>
+        <sys_id>4ae8bee0d45e12107f4489ee789dc83a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:44:57</sys_updated_on>
+        <value>x_1534869_rrm_assignment_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=82e8bee0d45e12107f4489ee789dc839"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>82e8bee0d45e12107f4489ee789dc839</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:44:57</sys_created_on>
+        <sys_id>c6e8bee0d45e12107f4489ee789dc83a</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:32:31</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>state=1^priority=4^record_number={{Updated_1.current.conference_room}}^task_type=Food Service^description={{Updated_1.current.number}} is requesting food service for conference room {{Updated_1.current.conference_room.number}} which is scheduled for use on {{Updated_1.current.work_start}}. Got to record for list of requested food items.^room_reserve_number={{Updated_1.current}}^short_description=Conference room {{Updated_1.current.conference_room.number}} is requesting food.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>82e8bee0d45e12107f4489ee789dc839</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:44:57</sys_created_on>
+        <sys_id>06e8bee0d45e12107f4489ee789dc83a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:44:57</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=82e8bee0d45e12107f4489ee789dc839"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=82e8bee0d45e12107f4489ee789dc839"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>Additional Items</comment>
+        <display_text/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>c86f2950-ebb9-4702-8b00-fbb91b417307</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:45:07</sys_created_on>
+        <sys_id>b8f87ae0d45e12107f4489ee789dc881</sys_id>
+        <sys_mod_count>60</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>5405ba7c-ebbf-45e9-bb57-a956d81c377f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b8f87ae0d45e12107f4489ee789dc881"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b8f87ae0d45e12107f4489ee789dc881</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:45:07</sys_created_on>
+        <sys_id>70f87ae0d45e12107f4489ee789dc883</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:45:07</sys_updated_on>
+        <value>x_1534869_rrm_assignment_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b8f87ae0d45e12107f4489ee789dc881"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>b8f87ae0d45e12107f4489ee789dc881</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:45:07</sys_created_on>
+        <sys_id>fcf87ae0d45e12107f4489ee789dc882</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:34:09</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>state=1^task_type=Equipment^priority=4^record_number={{Updated_1.current.conference_room}}^description={{Updated_1.current.number}} is requesting additional Items for conference room {{Updated_1.current.conference_room.number}} which is scheduled for use on {{Updated_1.current.work_start}}. View request for list of request items.{{Updated_1.current.number}}^room_reserve_number={{Updated_1.current}}^short_description=Conference room {{Updated_1.current.conference_room.number}} is requesting additional equipment.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>b8f87ae0d45e12107f4489ee789dc881</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:45:07</sys_created_on>
+        <sys_id>3cf87ae0d45e12107f4489ee789dc882</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:45:07</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b8f87ae0d45e12107f4489ee789dc881"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b8f87ae0d45e12107f4489ee789dc881"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>e4c5e2e1-fc94-40ea-8e9d-63b7d1ddd63a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:32:39</sys_created_on>
+        <sys_id>ca16feecd41e12107f4489ee789dc8ff</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:17</sys_updated_on>
+        <ui_id>6c2af503-e448-4022-818e-86e83ab6d379</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ca16feecd41e12107f4489ee789dc8ff"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca16feecd41e12107f4489ee789dc8ff</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:05</sys_created_on>
+        <sys_id>9436f220d45e12107f4489ee789dc84f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:33:05</sys_updated_on>
+        <value>x_1534869_rrm_confrence_rooms</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>ca16feecd41e12107f4489ee789dc8ff</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:05</sys_created_on>
+        <sys_id>d036f220d45e12107f4489ee789dc84f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:33:05</sys_updated_on>
+        <value>state=Available</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=ca16feecd41e12107f4489ee789dc8ff"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>ca16feecd41e12107f4489ee789dc8ff</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:05</sys_created_on>
+        <sys_id>5036f220d45e12107f4489ee789dc84f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:33:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current.conference_room}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>ca16feecd41e12107f4489ee789dc8ff</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:05</sys_created_on>
+        <sys_id>d836f220d45e12107f4489ee789dc84e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:33:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>ca16feecd41e12107f4489ee789dc8ff</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:05</sys_created_on>
+        <sys_id>9c36f220d45e12107f4489ee789dc84e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:33:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ca16feecd41e12107f4489ee789dc8ff"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ca16feecd41e12107f4489ee789dc8ff"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent/>
+        <attributes/>
+        <comment>Food Service</comment>
+        <display_text/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <generation_source/>
+        <order>14</order>
+        <parent_ui_id>c2361170-3a41-4592-ba89-586142d75d81</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:34:28</sys_created_on>
+        <sys_id>d210c405b89a12107f44b56e8e7a0c6e</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>3771c6bd-adf8-498b-8c7e-e4d9374ba1cc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=d210c405b89a12107f44b56e8e7a0c6e"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>d210c405b89a12107f44b56e8e7a0c6e</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:34:28</sys_created_on>
+        <sys_id>9210c405b89a12107f44b56e8e7a0c70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:34:28</sys_updated_on>
+        <value>x_1534869_rrm_assignment_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=d210c405b89a12107f44b56e8e7a0c6e"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>d210c405b89a12107f44b56e8e7a0c6e</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:34:28</sys_created_on>
+        <sys_id>1210c405b89a12107f44b56e8e7a0c70</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:34:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>state=1^priority=4^record_number={{Updated_1.current.conference_room}}^task_type=Food Service^description={{Updated_1.current.number}} is requesting food service for conference room {{Updated_1.current.conference_room.number}} which is scheduled for use on {{Updated_1.current.work_start}}. Got to record for list of requested food items.^room_reserve_number={{Updated_1.current}}^short_description=Conference room {{Updated_1.current.conference_room.number}} is requesting food.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>d210c405b89a12107f44b56e8e7a0c6e</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:34:28</sys_created_on>
+        <sys_id>5a10c405b89a12107f44b56e8e7a0c6f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:34:28</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d210c405b89a12107f44b56e8e7a0c6e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=d210c405b89a12107f44b56e8e7a0c6e"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=26e3f2e8d41e12107f4489ee789dc86d"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=26e3f2e8d41e12107f4489ee789dc86d^sys_idNOT IN0cd53aecd41e12107f4489ee789dc8c9,1f387338b85a12107f44b56e8e7a0cdd,2a293f78b85a12107f44b56e8e7a0c80,4839b778b85a12107f44b56e8e7a0c7c,578933b8b85a12107f44b56e8e7a0c17,b1a683fcb81612107f44b56e8e7a0c3a,c2d83778b85a12107f44b56e8e7a0c2f,e3b8ff38b85a12107f44b56e8e7a0c30,f589b7b8b85a12107f44b56e8e7a0c53,f9367eecd41e12107f4489ee789dc81f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2be83ae0d45e12107f4489ee789dc8fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:31:25</sys_created_on>
+        <sys_id>0cd53aecd41e12107f4489ee789dc8c9</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:17</sys_updated_on>
+        <ui_id>e4c5e2e1-fc94-40ea-8e9d-63b7d1ddd63a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=0cd53aecd41e12107f4489ee789dc8c9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>0cd53aecd41e12107f4489ee789dc8c9</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:32:33</sys_created_on>
+        <sys_id>a416feecd41e12107f4489ee789dc8f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:32:33</sys_updated_on>
+        <value>Denied</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=0cd53aecd41e12107f4489ee789dc8c9"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>0cd53aecd41e12107f4489ee789dc8c9</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:32:33</sys_created_on>
+        <sys_id>2416feecd41e12107f4489ee789dc8f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:32:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.state}}=4</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>0cd53aecd41e12107f4489ee789dc8c9</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:32:33</sys_created_on>
+        <sys_id>6016feecd41e12107f4489ee789dc8f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:32:33</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=0cd53aecd41e12107f4489ee789dc8c9"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=0cd53aecd41e12107f4489ee789dc8c9"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2fa93fb8b85a12107f44b56e8e7a0c24</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:00:07</sys_created_on>
+        <sys_id>1f387338b85a12107f44b56e8e7a0cdd</sys_id>
+        <sys_mod_count>29</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>c86f2950-ebb9-4702-8b00-fbb91b417307</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1f387338b85a12107f44b56e8e7a0cdd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>1f387338b85a12107f44b56e8e7a0cdd</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:01:07</sys_created_on>
+        <sys_id>b1783b38b85a12107f44b56e8e7a0c26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:01:07</sys_updated_on>
+        <value>Both Additional Request</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=1f387338b85a12107f44b56e8e7a0cdd"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>1f387338b85a12107f44b56e8e7a0cdd</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:01:07</sys_created_on>
+        <sys_id>31783b38b85a12107f44b56e8e7a0c26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:01:07</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.additional_items}}ISNOTEMPTY^{{Updated_1.current.food_services}}ISNOTEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>1f387338b85a12107f44b56e8e7a0cdd</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:01:07</sys_created_on>
+        <sys_id>79783b38b85a12107f44b56e8e7a0c25</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:01:07</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1f387338b85a12107f44b56e8e7a0cdd"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1f387338b85a12107f44b56e8e7a0cdd"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">67a93fb8b85a12107f44b56e8e7a0c37</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c9c82b54-c874-4d04-827b-d77ed8cbdf4d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:04:10</sys_created_on>
+        <sys_id>2a293f78b85a12107f44b56e8e7a0c80</sys_id>
+        <sys_mod_count>22</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>e9d0f2b0-8a27-42d1-91c7-d6134e0fa732</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2a293f78b85a12107f44b56e8e7a0c80"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2a293f78b85a12107f44b56e8e7a0c80"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2a293f78b85a12107f44b56e8e7a0c80"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">eba93fb8b85a12107f44b56e8e7a0c3b</block>
+        <comment>Food Service</comment>
+        <connected_to>c86f2950-ebb9-4702-8b00-fbb91b417307</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:04:16</sys_created_on>
+        <sys_id>4839b778b85a12107f44b56e8e7a0c7c</sys_id>
+        <sys_mod_count>24</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>c2361170-3a41-4592-ba89-586142d75d81</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=4839b778b85a12107f44b56e8e7a0c7c"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=4839b778b85a12107f44b56e8e7a0c7c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=4839b778b85a12107f44b56e8e7a0c7c"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aba93fb8b85a12107f44b56e8e7a0c45</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>16</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:05:52</sys_created_on>
+        <sys_id>578933b8b85a12107f44b56e8e7a0c17</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>05ced2c3-e5a0-4bdf-a4eb-f76683f073dc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=578933b8b85a12107f44b56e8e7a0c17"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=578933b8b85a12107f44b56e8e7a0c17"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=578933b8b85a12107f44b56e8e7a0c17"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">df274330b85612107f44b56e8e7a0c98</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>e4c5e2e1-fc94-40ea-8e9d-63b7d1ddd63a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 19:23:29</sys_created_on>
+        <sys_id>b1a683fcb81612107f44b56e8e7a0c3a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>2a759893-8df7-4951-9165-a9bc9c6abe1f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=b1a683fcb81612107f44b56e8e7a0c3a"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=b1a683fcb81612107f44b56e8e7a0c3a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b1a683fcb81612107f44b56e8e7a0c3a"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e3a93fb8b85a12107f44b56e8e7a0c31</block>
+        <comment/>
+        <connected_to>c86f2950-ebb9-4702-8b00-fbb91b417307</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:02:46</sys_created_on>
+        <sys_id>c2d83778b85a12107f44b56e8e7a0c2f</sys_id>
+        <sys_mod_count>26</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>c9c82b54-c874-4d04-827b-d77ed8cbdf4d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=c2d83778b85a12107f44b56e8e7a0c2f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>c2d83778b85a12107f44b56e8e7a0c2f</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:03:21</sys_created_on>
+        <sys_id>a6f83b78b85a12107f44b56e8e7a0c7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:03:21</sys_updated_on>
+        <value>Additional Items</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=c2d83778b85a12107f44b56e8e7a0c2f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>c2d83778b85a12107f44b56e8e7a0c2f</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:03:21</sys_created_on>
+        <sys_id>26f83b78b85a12107f44b56e8e7a0c7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:03:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Updated_1.current.additional_items}}ISNOTEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>c2d83778b85a12107f44b56e8e7a0c2f</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:03:21</sys_created_on>
+        <sys_id>62f83b78b85a12107f44b56e8e7a0c7b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:03:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=c2d83778b85a12107f44b56e8e7a0c2f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=c2d83778b85a12107f44b56e8e7a0c2f"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">63a93fb8b85a12107f44b56e8e7a0c2c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c86f2950-ebb9-4702-8b00-fbb91b417307</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:02:19</sys_created_on>
+        <sys_id>e3b8ff38b85a12107f44b56e8e7a0c30</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>0adb665a-da84-4d0e-a319-4fcaaf767280</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=e3b8ff38b85a12107f44b56e8e7a0c30"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=e3b8ff38b85a12107f44b56e8e7a0c30"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e3b8ff38b85a12107f44b56e8e7a0c30"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">27a93fb8b85a12107f44b56e8e7a0c41</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>15</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c2361170-3a41-4592-ba89-586142d75d81</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:05:46</sys_created_on>
+        <sys_id>f589b7b8b85a12107f44b56e8e7a0c53</sys_id>
+        <sys_mod_count>19</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>93e4d439-5272-44c4-9c44-d553d9f2b37a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f589b7b8b85a12107f44b56e8e7a0c53"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f589b7b8b85a12107f44b56e8e7a0c53"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f589b7b8b85a12107f44b56e8e7a0c53"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ea09b624d45e12107f4489ee789dc817</block>
+        <comment/>
+        <connected_to>e4c5e2e1-fc94-40ea-8e9d-63b7d1ddd63a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:33:11</sys_created_on>
+        <sys_id>f9367eecd41e12107f4489ee789dc81f</sys_id>
+        <sys_mod_count>34</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:18</sys_updated_on>
+        <ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f9367eecd41e12107f4489ee789dc81f"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f9367eecd41e12107f4489ee789dc81f"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f9367eecd41e12107f4489ee789dc81f"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=26e3f2e8d41e12107f4489ee789dc86d"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=26e3f2e8d41e12107f4489ee789dc86d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_26e3f2e8d41e12107f4489ee789dc86d^sys_idNOT IN1355beacd41e12107f4489ee789dc882,5755beacd41e12107f4489ee789dc88a,d355beacd41e12107f4489ee789dc87a"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_26e3f2e8d41e12107f4489ee789dc86d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:29:28</sys_created_on>
+        <sys_id>1355beacd41e12107f4489ee789dc882</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:29:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_26e3f2e8d41e12107f4489ee789dc86d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:29:28</sys_created_on>
+        <sys_id>5755beacd41e12107f4489ee789dc88a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:29:28</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_26e3f2e8d41e12107f4489ee789dc86d</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-02 23:29:27</sys_created_on>
+        <sys_id>d355beacd41e12107f4489ee789dc87a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-02 23:29:27</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_26e3f2e8d41e12107f4489ee789dc86d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_26e3f2e8d41e12107f4489ee789dc86d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_26e3f2e8d41e12107f4489ee789dc86d"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>25000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>update_room_request</internal_name>
+        <label_cache>[{"name":"Updated_1.current.number","label":"Trigger - Record Updated➛Request Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_request","column_name":"number","usedInstances":{"1bd5750d-66d7-436b-b377-4df6beb2cc9f":["description"],"5405ba7c-ebbf-45e9-bb57-a956d81c377f":["description"],"3771c6bd-adf8-498b-8c7e-e4d9374ba1cc":["field_values"],"b5420e70-7e4a-4ffd-a7a4-e5529bd401d6":["field_values"]}},{"name":"Updated_1.current.food_services","label":"Trigger - Record Updated➛Request Record➛Food Services","reference":"core_company","reference_display":"Company","type":"glide_list","base_type":"glide_list","parent_table_name":"x_1534869_rrm_request","column_name":"food_services","usedInstances":{"dadd741a-0f7b-430c-b7fc-30c77fc30c19":["condition"],"8588bf57-04fe-40b1-9d41-5ba28a6c13bc":["description"],"c1e45445-ce26-4c3b-8511-f7210277d17d":["condition"],"c86f2950-ebb9-4702-8b00-fbb91b417307":["condition"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["field_values"],"1bd5750d-66d7-436b-b377-4df6beb2cc9f":["description"]}},{"name":"Updated_1.current.work_start","label":"Trigger - Record Updated➛Request Record➛Requested Date","reference":"","reference_display":"Requested Date","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["description"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["field_values"],"3771c6bd-adf8-498b-8c7e-e4d9374ba1cc":["field_values"],"b5420e70-7e4a-4ffd-a7a4-e5529bd401d6":["field_values"]}},{"name":"Updated_1.current.requested_by","label":"Trigger - Record Updated➛Request Record➛Requested By","reference":"","reference_display":"Requested By","type":"string","base_type":"string","usedInstances":{"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["description"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["field_values"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Request Record","reference":"x_1534869_rrm_request","reference_display":"Request","type":"reference","base_type":"reference","usedInstances":{"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["record_number","room_reserve_number"],"8588bf57-04fe-40b1-9d41-5ba28a6c13bc":["record_number","room_reserve_number"],"1bd5750d-66d7-436b-b377-4df6beb2cc9f":["room_reserve_number","description"],"5405ba7c-ebbf-45e9-bb57-a956d81c377f":["room_reserve_number","description"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["field_values"],"3771c6bd-adf8-498b-8c7e-e4d9374ba1cc":["field_values"],"b5420e70-7e4a-4ffd-a7a4-e5529bd401d6":["field_values"]},"attributes":{}},{"name":"Updated_1.current.additional_items","label":"Trigger - Record Updated➛Request Record➛Additional Items","reference":"cmdb_ci","reference_display":"Configuration Item","type":"glide_list","base_type":"glide_list","parent_table_name":"x_1534869_rrm_request","column_name":"additional_items","usedInstances":{"dadd741a-0f7b-430c-b7fc-30c77fc30c19":["condition"],"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["description"],"4eba0a8a-e31d-482c-b0d0-45e151046263":["condition"],"c86f2950-ebb9-4702-8b00-fbb91b417307":["condition"],"c9c82b54-c874-4d04-827b-d77ed8cbdf4d":["condition"]}},{"name":"Updated_1.current.conference_room","label":"Trigger - Record Updated➛Request Record➛Conference Room","reference":"x_1534869_rrm_confrence_rooms","reference_display":"Conference Rooms","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_request","column_name":"conference_room","usedInstances":{"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["description"],"71684434-7e70-4375-b257-41e2e25717a2":["record"],"6c2af503-e448-4022-818e-86e83ab6d379":["record"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["field_values"],"1bd5750d-66d7-436b-b377-4df6beb2cc9f":["short_description","record_number"],"5405ba7c-ebbf-45e9-bb57-a956d81c377f":["record_number"],"3771c6bd-adf8-498b-8c7e-e4d9374ba1cc":["field_values"],"b5420e70-7e4a-4ffd-a7a4-e5529bd401d6":["field_values"]}},{"name":"Updated_1.current.state","label":"Trigger - Record Updated➛Request Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","usedInstances":{"e4c5e2e1-fc94-40ea-8e9d-63b7d1ddd63a":["condition"]}},{"name":"Updated_1.current.conference_room.number","label":"Trigger - Record Updated➛Request Record➛Conference Room➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_confrence_rooms","column_name":"number","usedInstances":{"1bd5750d-66d7-436b-b377-4df6beb2cc9f":["record_number","description","short_description"],"5405ba7c-ebbf-45e9-bb57-a956d81c377f":["record_number","description","short_description"],"1db25c3b-6d02-459b-95ce-4c4b81849d6d":["record_number"],"ada90f03-dbfe-4e5c-9807-07103fcead39":["record_number"],"3771c6bd-adf8-498b-8c7e-e4d9374ba1cc":["field_values"],"b5420e70-7e4a-4ffd-a7a4-e5529bd401d6":["field_values"]}}]</label_cache>
+        <master>true</master>
+        <name>Update Room Request</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Update Room Request">26e3f2e8d41e12107f4489ee789dc86d</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>c4924449b89a12107f44b56e8e7a0cb5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:14</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=c4924449b89a12107f44b56e8e7a0cb5"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c4924449b89a12107f44b56e8e7a0cb5"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=c4924449b89a12107f44b56e8e7a0cb5^sys_idNOT INa4928449b89a12107f44b56e8e7a0c61"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>a4928449b89a12107f44b56e8e7a0c61</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:17</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a4928449b89a12107f44b56e8e7a0c61"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a4928449b89a12107f44b56e8e7a0c61</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>20928449b89a12107f44b56e8e7a0c62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <value>^EQ</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>a4928449b89a12107f44b56e8e7a0c61</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>e0928449b89a12107f44b56e8e7a0c62</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <value>x_1534869_rrm_request</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=a4928449b89a12107f44b56e8e7a0c61"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=c4924449b89a12107f44b56e8e7a0cb5"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=c4924449b89a12107f44b56e8e7a0cb5^sys_idNOT INc0924449b89a12107f44b56e8e7a0cb6"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>c4924449b89a12107f44b56e8e7a0cb5</id>
+        <name>Update Room Request</name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:14</sys_created_on>
+        <sys_id>c0924449b89a12107f44b56e8e7a0cb6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:14</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c0924449b89a12107f44b56e8e7a0cb6"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=c4924449b89a12107f44b56e8e7a0cb5^sys_idNOT IN80924449b89a12107f44b56e8e7a0cb7,88924449b89a12107f44b56e8e7a0cc8,c8924449b89a12107f44b56e8e7a0cd0"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</model>
+        <model_id>c4924449b89a12107f44b56e8e7a0cb5</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c4924449b89a12107f44b56e8e7a0cb5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:14</sys_created_on>
+        <sys_id>80924449b89a12107f44b56e8e7a0cb7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=80924449b89a12107f44b56e8e7a0cb7"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</model>
+        <model_id>c4924449b89a12107f44b56e8e7a0cb5</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c4924449b89a12107f44b56e8e7a0cb5</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:14</sys_created_on>
+        <sys_id>88924449b89a12107f44b56e8e7a0cc8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:14</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=88924449b89a12107f44b56e8e7a0cc8"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</model>
+        <model_id>c4924449b89a12107f44b56e8e7a0cb5</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_c4924449b89a12107f44b56e8e7a0cb5</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>c8924449b89a12107f44b56e8e7a0cd0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=c8924449b89a12107f44b56e8e7a0cd0"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=c4924449b89a12107f44b56e8e7a0cb5"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c4924449b89a12107f44b56e8e7a0cb5"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=c4924449b89a12107f44b56e8e7a0cb5^sys_idNOT IN20928449b89a12107f44b56e8e7a0c53,2c928449b89a12107f44b56e8e7a0c5f,64928449b89a12107f44b56e8e7a0c33,a4928449b89a12107f44b56e8e7a0c59,dc928449b89a12107f44b56e8e7a0c24,dc928449b89a12107f44b56e8e7a0c2b"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment>Additional Items</comment>
+        <display_text/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>c86f2950-ebb9-4702-8b00-fbb91b417307</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>20928449b89a12107f44b56e8e7a0c53</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <ui_id>5405ba7c-ebbf-45e9-bb57-a956d81c377f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=20928449b89a12107f44b56e8e7a0c53"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>20928449b89a12107f44b56e8e7a0c53</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>a4928449b89a12107f44b56e8e7a0c54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <value>x_1534869_rrm_assignment_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=20928449b89a12107f44b56e8e7a0c53"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>20928449b89a12107f44b56e8e7a0c53</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>24928449b89a12107f44b56e8e7a0c54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>state=1^task_type=Equipment^priority=4^record_number={{Updated_1.current.conference_room}}^description={{Updated_1.current.number}} is requesting additional Items for conference room {{Updated_1.current.conference_room.number}} which is scheduled for use on {{Updated_1.current.work_start}}. View request for list of request items.{{Updated_1.current.number}}^room_reserve_number={{Updated_1.current}}^short_description=Conference room {{Updated_1.current.conference_room.number}} is requesting additional equipment.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>20928449b89a12107f44b56e8e7a0c53</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>60928449b89a12107f44b56e8e7a0c54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=20928449b89a12107f44b56e8e7a0c53"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=20928449b89a12107f44b56e8e7a0c53"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment>Food Service</comment>
+        <display_text/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <generation_source/>
+        <order>14</order>
+        <parent_ui_id>c2361170-3a41-4592-ba89-586142d75d81</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>2c928449b89a12107f44b56e8e7a0c5f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <ui_id>3771c6bd-adf8-498b-8c7e-e4d9374ba1cc</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2c928449b89a12107f44b56e8e7a0c5f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2c928449b89a12107f44b56e8e7a0c5f</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>a0928449b89a12107f44b56e8e7a0c61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <value>x_1534869_rrm_assignment_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2c928449b89a12107f44b56e8e7a0c5f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>2c928449b89a12107f44b56e8e7a0c5f</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>20928449b89a12107f44b56e8e7a0c61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>state=1^priority=4^record_number={{Updated_1.current.conference_room}}^task_type=Food Service^description={{Updated_1.current.number}} is requesting food service for conference room {{Updated_1.current.conference_room.number}} which is scheduled for use on {{Updated_1.current.work_start}}. Got to record for list of requested food items.^room_reserve_number={{Updated_1.current}}^short_description=Conference room {{Updated_1.current.conference_room.number}} is requesting food.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>2c928449b89a12107f44b56e8e7a0c5f</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>6c928449b89a12107f44b56e8e7a0c60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2c928449b89a12107f44b56e8e7a0c5f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=2c928449b89a12107f44b56e8e7a0c5f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment>Food Service</comment>
+        <display_text/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>c86f2950-ebb9-4702-8b00-fbb91b417307</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>64928449b89a12107f44b56e8e7a0c33</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <ui_id>1bd5750d-66d7-436b-b377-4df6beb2cc9f</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=64928449b89a12107f44b56e8e7a0c33"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>64928449b89a12107f44b56e8e7a0c33</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>ec928449b89a12107f44b56e8e7a0c34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <value>x_1534869_rrm_assignment_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=64928449b89a12107f44b56e8e7a0c33"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>64928449b89a12107f44b56e8e7a0c33</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>6c928449b89a12107f44b56e8e7a0c34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>state=1^priority=4^record_number={{Updated_1.current.conference_room}}^task_type=Food Service^description={{Updated_1.current.number}} is requesting food service for conference room {{Updated_1.current.conference_room.number}} which is scheduled for use on {{Updated_1.current.work_start}}. Got to record for list of requested food items.^room_reserve_number={{Updated_1.current}}^short_description=Conference room {{Updated_1.current.conference_room.number}} is requesting food.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>64928449b89a12107f44b56e8e7a0c33</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>a8928449b89a12107f44b56e8e7a0c34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=64928449b89a12107f44b56e8e7a0c33"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=64928449b89a12107f44b56e8e7a0c33"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Create Task">2b3a6335531003003bf1d9109ec58759</action_type>
+        <action_type_parent display_value="Create Task">3f9b1ff1531003003bf1d9109ec58775</action_type_parent>
+        <attributes/>
+        <comment>Additional Items</comment>
+        <display_text/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <generation_source/>
+        <order>11</order>
+        <parent_ui_id>c9c82b54-c874-4d04-827b-d77ed8cbdf4d</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>a4928449b89a12107f44b56e8e7a0c59</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <ui_id>b5420e70-7e4a-4ffd-a7a4-e5529bd401d6</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=a4928449b89a12107f44b56e8e7a0c59"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>a4928449b89a12107f44b56e8e7a0c59</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>2c928449b89a12107f44b56e8e7a0c5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <value>x_1534869_rrm_assignment_task</value>
+        <variable display_value="Table">e73a6335531003003bf1d9109ec5875c</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=a4928449b89a12107f44b56e8e7a0c59"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>field_values</field>
+        <id>a4928449b89a12107f44b56e8e7a0c59</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>a8928449b89a12107f44b56e8e7a0c5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value>state=1^task_type=Equipment^priority=4^record_number={{Updated_1.current.conference_room}}^description={{Updated_1.current.number}} is requesting additional Items for conference room {{Updated_1.current.conference_room.number}} which is scheduled for use on {{Updated_1.current.work_start}}. View request for list of request items.{{Updated_1.current.number}}^room_reserve_number={{Updated_1.current}}^short_description=Conference room {{Updated_1.current.conference_room.number}} is requesting additional equipment.</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>task_table</field>
+        <id>a4928449b89a12107f44b56e8e7a0c59</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:16</sys_created_on>
+        <sys_id>e4928449b89a12107f44b56e8e7a0c5a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:16</sys_updated_on>
+        <table>var__m_sys_hub_action_input_2b3a6335531003003bf1d9109ec58759</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=a4928449b89a12107f44b56e8e7a0c59"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=a4928449b89a12107f44b56e8e7a0c59"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>e4c5e2e1-fc94-40ea-8e9d-63b7d1ddd63a</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>dc928449b89a12107f44b56e8e7a0c24</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>6c2af503-e448-4022-818e-86e83ab6d379</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dc928449b89a12107f44b56e8e7a0c24"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dc928449b89a12107f44b56e8e7a0c24</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>10928449b89a12107f44b56e8e7a0c27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <value>state=Available</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dc928449b89a12107f44b56e8e7a0c24</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>d0928449b89a12107f44b56e8e7a0c27</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <value>x_1534869_rrm_confrence_rooms</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dc928449b89a12107f44b56e8e7a0c24"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>dc928449b89a12107f44b56e8e7a0c24</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>d8928449b89a12107f44b56e8e7a0c26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current.conference_room}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>dc928449b89a12107f44b56e8e7a0c24</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>18928449b89a12107f44b56e8e7a0c26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>dc928449b89a12107f44b56e8e7a0c24</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>9c928449b89a12107f44b56e8e7a0c26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dc928449b89a12107f44b56e8e7a0c24"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dc928449b89a12107f44b56e8e7a0c24"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>dc928449b89a12107f44b56e8e7a0c2b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>71684434-7e70-4375-b257-41e2e25717a2</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dc928449b89a12107f44b56e8e7a0c2b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dc928449b89a12107f44b56e8e7a0c2b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>18928449b89a12107f44b56e8e7a0c2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <value>state=Reserved</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dc928449b89a12107f44b56e8e7a0c2b</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>d8928449b89a12107f44b56e8e7a0c2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <value>x_1534869_rrm_confrence_rooms</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dc928449b89a12107f44b56e8e7a0c2b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>dc928449b89a12107f44b56e8e7a0c2b</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>d0928449b89a12107f44b56e8e7a0c2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current.conference_room}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>dc928449b89a12107f44b56e8e7a0c2b</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>10928449b89a12107f44b56e8e7a0c2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>dc928449b89a12107f44b56e8e7a0c2b</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>94928449b89a12107f44b56e8e7a0c2d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dc928449b89a12107f44b56e8e7a0c2b"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dc928449b89a12107f44b56e8e7a0c2b"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=c4924449b89a12107f44b56e8e7a0cb5"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=c4924449b89a12107f44b56e8e7a0cb5^sys_idNOT IN1c928449b89a12107f44b56e8e7a0c0b,50928449b89a12107f44b56e8e7a0c05,50928449b89a12107f44b56e8e7a0c09,54924449b89a12107f44b56e8e7a0cf2,58924449b89a12107f44b56e8e7a0cec,58928449b89a12107f44b56e8e7a0c1d,5c924449b89a12107f44b56e8e7a0cdb,d4924449b89a12107f44b56e8e7a0cef,d4928449b89a12107f44b56e8e7a0c0e,dc924449b89a12107f44b56e8e7a0cf5"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">eba93fb8b85a12107f44b56e8e7a0c3b</block>
+        <comment>Food Service</comment>
+        <connected_to>c86f2950-ebb9-4702-8b00-fbb91b417307</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>13</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>1c928449b89a12107f44b56e8e7a0c0b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>c2361170-3a41-4592-ba89-586142d75d81</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=1c928449b89a12107f44b56e8e7a0c0b"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=1c928449b89a12107f44b56e8e7a0c0b"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=1c928449b89a12107f44b56e8e7a0c0b"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">e3a93fb8b85a12107f44b56e8e7a0c31</block>
+        <comment/>
+        <connected_to>c86f2950-ebb9-4702-8b00-fbb91b417307</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>10</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>50928449b89a12107f44b56e8e7a0c05</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>c9c82b54-c874-4d04-827b-d77ed8cbdf4d</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=50928449b89a12107f44b56e8e7a0c05"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>50928449b89a12107f44b56e8e7a0c05</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>d0928449b89a12107f44b56e8e7a0c08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <value>Additional Items</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=50928449b89a12107f44b56e8e7a0c05"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>50928449b89a12107f44b56e8e7a0c05</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>50928449b89a12107f44b56e8e7a0c08</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value>{{Updated_1.current.additional_items}}ISNOTEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>50928449b89a12107f44b56e8e7a0c05</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>9c928449b89a12107f44b56e8e7a0c07</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_666e5545c3e232002841b63b12d3ae99</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=50928449b89a12107f44b56e8e7a0c05"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=50928449b89a12107f44b56e8e7a0c05"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">67a93fb8b85a12107f44b56e8e7a0c37</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>12</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c9c82b54-c874-4d04-827b-d77ed8cbdf4d</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>50928449b89a12107f44b56e8e7a0c09</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>e9d0f2b0-8a27-42d1-91c7-d6134e0fa732</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=50928449b89a12107f44b56e8e7a0c09"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=50928449b89a12107f44b56e8e7a0c09"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=50928449b89a12107f44b56e8e7a0c09"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2fa93fb8b85a12107f44b56e8e7a0c24</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>54924449b89a12107f44b56e8e7a0cf2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>c86f2950-ebb9-4702-8b00-fbb91b417307</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=54924449b89a12107f44b56e8e7a0cf2"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>54924449b89a12107f44b56e8e7a0cf2</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>d0924449b89a12107f44b56e8e7a0cf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <value>Both Additional Request</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=54924449b89a12107f44b56e8e7a0cf2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>54924449b89a12107f44b56e8e7a0cf2</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>50924449b89a12107f44b56e8e7a0cf5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.additional_items}}ISNOTEMPTY^{{Updated_1.current.food_services}}ISNOTEMPTY</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>54924449b89a12107f44b56e8e7a0cf2</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>9c924449b89a12107f44b56e8e7a0cf4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=54924449b89a12107f44b56e8e7a0cf2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=54924449b89a12107f44b56e8e7a0cf2"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">df274330b85612107f44b56e8e7a0c98</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>e4c5e2e1-fc94-40ea-8e9d-63b7d1ddd63a</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>58924449b89a12107f44b56e8e7a0cec</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>2a759893-8df7-4951-9165-a9bc9c6abe1f</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=58924449b89a12107f44b56e8e7a0cec"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=58924449b89a12107f44b56e8e7a0cec"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=58924449b89a12107f44b56e8e7a0cec"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">aba93fb8b85a12107f44b56e8e7a0c45</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>16</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>58928449b89a12107f44b56e8e7a0c1d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>05ced2c3-e5a0-4bdf-a4eb-f76683f073dc</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=58928449b89a12107f44b56e8e7a0c1d"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=58928449b89a12107f44b56e8e7a0c1d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=58928449b89a12107f44b56e8e7a0c1d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">2be83ae0d45e12107f4489ee789dc8fd</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>5c924449b89a12107f44b56e8e7a0cdb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>e4c5e2e1-fc94-40ea-8e9d-63b7d1ddd63a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=5c924449b89a12107f44b56e8e7a0cdb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>5c924449b89a12107f44b56e8e7a0cdb</document_key>
+        <order>10</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>d8924449b89a12107f44b56e8e7a0ceb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <value>Denied</value>
+        <variable display_value="Condition Label">f0af19c1c32632002841b63b12d3aea3</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=5c924449b89a12107f44b56e8e7a0cdb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>5c924449b89a12107f44b56e8e7a0cdb</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>58924449b89a12107f44b56e8e7a0ceb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{Updated_1.current.state}}=4</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition_name</field>
+        <id>5c924449b89a12107f44b56e8e7a0cdb</id>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>94924449b89a12107f44b56e8e7a0ceb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=5c924449b89a12107f44b56e8e7a0cdb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=5c924449b89a12107f44b56e8e7a0cdb"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">ea09b624d45e12107f4489ee789dc817</block>
+        <comment/>
+        <connected_to>e4c5e2e1-fc94-40ea-8e9d-63b7d1ddd63a</connected_to>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="Else">1f781bf3c32232002841b63b12d3aee6</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>d4924449b89a12107f44b56e8e7a0cef</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>be5ce9e7-17b6-479d-85e4-a503a28b5cc0</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d4924449b89a12107f44b56e8e7a0cef"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d4924449b89a12107f44b56e8e7a0cef"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d4924449b89a12107f44b56e8e7a0cef"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">27a93fb8b85a12107f44b56e8e7a0c41</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>15</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c2361170-3a41-4592-ba89-586142d75d81</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>d4928449b89a12107f44b56e8e7a0c0e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>93e4d439-5272-44c4-9c44-d553d9f2b37a</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=d4928449b89a12107f44b56e8e7a0c0e"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=d4928449b89a12107f44b56e8e7a0c0e"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=d4928449b89a12107f44b56e8e7a0c0e"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">63a93fb8b85a12107f44b56e8e7a0c2c</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Update Room Request">c4924449b89a12107f44b56e8e7a0cb5</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <inputs/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>9</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>c86f2950-ebb9-4702-8b00-fbb91b417307</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>dc924449b89a12107f44b56e8e7a0cf5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <ui_id>0adb665a-da84-4d0e-a319-4fcaaf767280</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=dc924449b89a12107f44b56e8e7a0cf5"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=dc924449b89a12107f44b56e8e7a0cf5"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dc924449b89a12107f44b56e8e7a0cf5"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=c4924449b89a12107f44b56e8e7a0cb5"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=c4924449b89a12107f44b56e8e7a0cb5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_c4924449b89a12107f44b56e8e7a0cb5^sys_idNOT IN10924449b89a12107f44b56e8e7a0cd5,40924449b89a12107f44b56e8e7a0cc5,80924449b89a12107f44b56e8e7a0ccd"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c4924449b89a12107f44b56e8e7a0cb5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>10924449b89a12107f44b56e8e7a0cd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c4924449b89a12107f44b56e8e7a0cb5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:14</sys_created_on>
+        <sys_id>40924449b89a12107f44b56e8e7a0cc5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:14</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_c4924449b89a12107f44b56e8e7a0cb5</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:15</sys_created_on>
+        <sys_id>80924449b89a12107f44b56e8e7a0ccd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:15</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_c4924449b89a12107f44b56e8e7a0cb5"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_c4924449b89a12107f44b56e8e7a0cb5"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_c4924449b89a12107f44b56e8e7a0cb5"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>26e3f2e8d41e12107f4489ee789dc86d</sys_id>
+        <latest_snapshot>c4924449b89a12107f44b56e8e7a0cb5</latest_snapshot>
+        <compiler_build/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=26e3f2e8d41e12107f4489ee789dc86d^sys_idNOT IN30928449b89a12107f44b56e8e7a0caf"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>26e3f2e8d41e12107f4489ee789dc86d</plan_id>
+        <snapshot>c4924449b89a12107f44b56e8e7a0cb5</snapshot>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 23:45:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>30928449b89a12107f44b56e8e7a0caf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-03 23:45:17</sys_updated_on>
+        <trigger display_value="">70928449b89a12107f44b56e8e7a0cad</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=26e3f2e8d41e12107f4489ee789dc86d"/>
+</record_update>

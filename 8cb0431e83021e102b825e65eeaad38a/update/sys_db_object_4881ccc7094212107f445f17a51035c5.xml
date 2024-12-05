@@ -8,7 +8,7 @@
         <configuration_access>false</configuration_access>
         <create_access>true</create_access>
         <create_access_controls>true</create_access_controls>
-        <delete_access>false</delete_access>
+        <delete_access>true</delete_access>
         <is_extendable>false</is_extendable>
         <label>Conference Rooms</label>
         <live_feed_enabled>false</live_feed_enabled>
@@ -22,14 +22,14 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-11-27 18:34:04</sys_created_on>
         <sys_id>4881ccc7094212107f445f17a51035c5</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Conference Rooms</sys_name>
         <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_update_name>sys_db_object_4881ccc7094212107f445f17a51035c5</sys_update_name>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-11-27 19:18:52</sys_updated_on>
+        <sys_updated_on>2024-12-02 16:51:27</sys_updated_on>
         <update_access>true</update_access>
         <user_role display_value="x_1534869_rrm.confrence_rooms_user" name="x_1534869_rrm.confrence_rooms_user">67c1840b094212107f445f17a51035aa</user_role>
         <ws_access>true</ws_access>

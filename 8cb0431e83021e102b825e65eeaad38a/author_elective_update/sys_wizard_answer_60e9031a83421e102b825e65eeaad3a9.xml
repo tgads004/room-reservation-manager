@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Conference Room</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Conference Room</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Base Configuration Item" name="Base Configuration Item">3b42e44e1802021076dae3f117ba1ef0</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 01:12:47</sys_created_on>
+        <sys_id>60e9031a83421e102b825e65eeaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conference Room</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_wizard_answer_60e9031a83421e102b825e65eeaad3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 01:12:47</sys_updated_on>
+        <table/>
+        <target_url>x_1534869_rrm_conference_room.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</application>
+        <file_path/>
+        <instance_id>8b5fc4c5db0a1e50018f20c9139619f4</instance_id>
+        <instance_name>adf-nov20-136-003</instance_name>
+        <name>sys_wizard_answer_60e9031a83421e102b825e65eeaad3a9</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>Conference Room</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Conference Room</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Base Configuration Item" name="Base Configuration Item">3b42e44e1802021076dae3f117ba1ef0</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-11-26 01:12:47</sys_created_on>
+        <sys_id>60e9031a83421e102b825e65eeaad3a9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conference Room</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_wizard_answer_60e9031a83421e102b825e65eeaad3a9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-11-26 01:12:47</sys_updated_on>
+        <table/>
+        <target_url>x_1534869_rrm_conference_room.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>]]></payload>
+        <payload_hash>1661533345</payload_hash>
+        <record_name>Conference Room</record_name>
+        <reverted_from/>
+        <source>af2b675e4dc612107f443473ac2f731e</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>t.gadson</sys_created_by>
+        <sys_created_on>2024-11-26 03:39:05</sys_created_on>
+        <sys_id>ab5b679e4dc612107f443473ac2f73fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193668d20c60000001</sys_recorded_at>
+        <sys_updated_by>t.gadson</sys_updated_by>
+        <sys_updated_on>2024-11-26 03:39:05</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>6b5b679eb6c61210df80d1b5c5c6aafc</update_guid>
+        <update_guid_history>6b5b679eb6c61210df80d1b5c5c6aafc:1661533345</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-12-02 17:34:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>44ac3a397039461b9acd2399f73e2cd1</sys_id>
+        <sys_metadata>60e9031a83421e102b825e65eeaad3a9</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conference Room</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_parent display_value="Base Configuration Item">dbc0cebd210102107f44464a0e4a8a1c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_scope_delete display_value="">1d2a0a09fed841648369685ce5209690</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_60e9031a83421e102b825e65eeaad3a9</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_60e9031a83421e102b825e65eeaad3a9">ab5b679e4dc612107f443473ac2f73fc</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-12-02 17:34:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

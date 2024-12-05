@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_1534869_rrm_confrence_rooms">connections=Wired^ORconnections=None^EQ<item display_value="Wired Only Internet" endquery="false" field="connections" goto="false" newquery="false" operator="=" or="false" value="Wired"/>
+            <item display_value="No Internet Available" endquery="false" field="connections" goto="false" newquery="false" operator="=" or="true" value="None"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <isolate_script>true</isolate_script>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide Password filed when not needed</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-04 18:15:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>08900c59e01612107f44e4f1fbb063d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hide Password filed when not needed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_ui_policy_08900c59e01612107f44e4f1fbb063d3</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-04 18:15:41</sys_updated_on>
+        <table>x_1534869_rrm_confrence_rooms</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>
