@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Default Form Layout</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Conference Room Form Layout</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var beenUpdated = g_form.getValue("updated_user") ;
+
+    if (!beenUpdated) {
+		g_form.setDisplay('updated_user', false);
+        g_form.setDisplay('date_updated', false);
+        g_form.setDisplay('update_description', false);
+    } else {
+        g_form.setDisplay('updated_user', true);
+        g_form.setDisplay('date_updated', true);
+        g_form.setDisplay('update_description', true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-11-29 22:38:57</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4fa03e7240612107f44b673af299f01</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Conference Room Form Layout</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_script_client_f4fa03e7240612107f44b673af299f01</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-04 18:14:41</sys_updated_on>
+        <table>x_1534869_rrm_confrence_rooms</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</application>
+        <file_path/>
+        <instance_id>8b5fc4c5db0a1e50018f20c9139619f4</instance_id>
+        <instance_name>adf-nov20-136-003</instance_name>
+        <name>sys_script_client_f4fa03e7240612107f44b673af299f01</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;
+    &lt;sys_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;condition/&gt;
+        &lt;description&gt;Default Form Layout&lt;/description&gt;
+        &lt;field/&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;Conference Room Form Layout&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onLoad() {
+	var beenUpdated = g_form.getValue("updated_user") ;
+
+    if (!beenUpdated) {
+		g_form.setDisplay('updated_user', false);
+        g_form.setDisplay('date_updated', false);
+        g_form.setDisplay('update_description', false);
+    } else {
+        g_form.setDisplay('updated_user', true);
+        g_form.setDisplay('date_updated', true);
+        g_form.setDisplay('update_description', true);
+    }
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;m.mackey&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-11-29 22:38:57&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;f4fa03e7240612107f44b673af299f01&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;9&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Conference Room Form Layout&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Room Reservation Manager" source="x_1534869_rrm"&gt;8cb0431e83021e102b825e65eeaad38a&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Room Reservation Manager"&gt;8cb0431e83021e102b825e65eeaad38a&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_client_f4fa03e7240612107f44b673af299f01&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;m.mackey&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-12-04 18:14:41&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_1534869_rrm_confrence_rooms&lt;/table&gt;
+        &lt;type&gt;onLoad&lt;/type&gt;
+        &lt;ui_type&gt;0&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-796840189</payload_hash>
+        <record_name>Conference Room Form Layout</record_name>
+        <reverted_from/>
+        <source>b4b5122d2d5a12107f4400b4c1caf1bf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>t.gadson</sys_created_by>
+        <sys_created_on>2024-12-05 23:45:10</sys_created_on>
+        <sys_id>7ab5922d2d5a12107f4400b4c1caf1ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1939936932f0000001</sys_recorded_at>
+        <sys_updated_by>t.gadson</sys_updated_by>
+        <sys_updated_on>2024-12-05 23:45:10</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>36b5922d845a1210129f5d2662a4b6ce</update_guid>
+        <update_guid_history>36b5922d845a1210129f5d2662a4b6ce:0,5a9224659d1212107798d220b47c861b:0,bb704c19d5161210845828e3905e2b06:-434679847,4f5fff852a16121076bc319497dc39eb:0,750eff0565161210a7d0d02535053252:-434679847,db1cff01a216121042498fb412068788:0,73aafb8d8fd21210612022770dd57db9:684713227,206aff4d47d212109e558d3bca607c8e:-434679847,91f8ad28eb961210b194b004007101b3:1915925894,c49053af030612103926ee150cd9e7d6:-355759394,d85941acadd21210b591742b614bc1f0:1055716970,c49053af030612103926ee150cd9e7d6:-355759394,df701b6f6706121070f7bb62d49a11ce:903356236,9000172f90061210350657ca743e6074:-588665367,37df076fa9061210d82ced41f394be6c:220846146,ce0f07abe9061210deb8a39f6a6d214f:700466099,216d4b6bd106121083e3ab48e5187711:21719807,273d4f6b1c061210587808949ac05bea:-568446309,d60d0ba734061210ff6be1eb65cd0499:-1717474101</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-06 18:57:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>031331e9f113467980513e11c57e0ed9</sys_id>
+        <sys_metadata>f4fa03e7240612107f44b673af299f01</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conference Room Form Layout</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_parent display_value="Conference Rooms">4881ccc7094212107f445f17a51035c5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_scope_delete display_value="">1d2a0a09fed841648369685ce5209690</sys_scope_delete>
+        <sys_update_name>sys_script_client_f4fa03e7240612107f44b673af299f01</sys_update_name>
+        <sys_update_version display_value="sys_script_client_f4fa03e7240612107f44b673af299f01">7ab5922d2d5a12107f4400b4c1caf1ce</sys_update_version>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-06 18:57:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

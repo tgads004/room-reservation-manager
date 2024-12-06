@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_policy">
     <sys_ui_policy action="INSERT_OR_UPDATE">
         <active>true</active>
-        <conditions table="x_1534869_rrm_assignment_task">room_reserve_numberISEMPTY^EQ<item endquery="false" field="room_reserve_number" goto="false" newquery="false" operator="ISEMPTY" or="false" value=""/>
+        <conditions table="x_1534869_rrm_request">state!=2^EQ<item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="!=" or="false" value="2"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </conditions>
         <description/>
@@ -21,23 +21,23 @@
 
 }]]></script_true>
         <set_values/>
-        <short_description>Assignment Task - Hide field when empty</short_description>
+        <short_description>Hide Conference Completted</short_description>
         <sys_class_name>sys_ui_policy</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
-        <sys_created_on>2024-12-04 18:16:52</sys_created_on>
+        <sys_created_on>2024-12-06 18:58:47</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>fff08c59e01612107f44e4f1fbb06394</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Assignment Task - Hide field when empty</sys_name>
+        <sys_id>d1cd9279419612107f4473b8206b9421</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Hide Conference Completted</sys_name>
         <sys_overrides/>
         <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
-        <sys_update_name>sys_ui_policy_fff08c59e01612107f44e4f1fbb06394</sys_update_name>
+        <sys_update_name>sys_ui_policy_d1cd9279419612107f4473b8206b9421</sys_update_name>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-06 15:31:36</sys_updated_on>
-        <table>x_1534869_rrm_assignment_task</table>
+        <sys_updated_on>2024-12-06 19:03:08</sys_updated_on>
+        <table>x_1534869_rrm_request</table>
         <ui_type>0</ui_type>
         <view/>
     </sys_ui_policy>

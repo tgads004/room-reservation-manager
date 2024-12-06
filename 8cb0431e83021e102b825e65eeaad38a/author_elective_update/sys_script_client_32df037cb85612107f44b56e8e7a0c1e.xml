@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Hide Password field if not required and show when required</description>
+        <field>connections</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Conference Room Wifi Password</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var password = g_form.getValue("connections");
+
+    if (password == 'Wired' || password == 'None') {
+        g_form.setDisplay('wifi_password', false);
+        g_form.setMandatory('wifi_password', false);
+    } else {
+        g_form.setDisplay('wifi_password', true);
+        g_form.setMandatory('wifi_password', true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 20:05:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>32df037cb85612107f44b56e8e7a0c1e</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Conference Room Wifi Password</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_script_client_32df037cb85612107f44b56e8e7a0c1e</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-04 18:14:47</sys_updated_on>
+        <table>x_1534869_rrm_confrence_rooms</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</application>
+        <file_path/>
+        <instance_id>8b5fc4c5db0a1e50018f20c9139619f4</instance_id>
+        <instance_name>adf-nov20-136-003</instance_name>
+        <name>sys_script_client_32df037cb85612107f44b56e8e7a0c1e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;
+    &lt;sys_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;condition/&gt;
+        &lt;description&gt;Hide Password field if not required and show when required&lt;/description&gt;
+        &lt;field&gt;connections&lt;/field&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;Conference Room Wifi Password&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '') {
+        return;
+    }
+    var password = g_form.getValue("connections");
+
+    if (password == 'Wired' || password == 'None') {
+        g_form.setDisplay('wifi_password', false);
+        g_form.setMandatory('wifi_password', false);
+    } else {
+        g_form.setDisplay('wifi_password', true);
+        g_form.setMandatory('wifi_password', true);
+    }
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;m.mackey&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-12-03 20:05:38&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;32df037cb85612107f44b56e8e7a0c1e&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;6&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Conference Room Wifi Password&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Room Reservation Manager" source="x_1534869_rrm"&gt;8cb0431e83021e102b825e65eeaad38a&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Room Reservation Manager"&gt;8cb0431e83021e102b825e65eeaad38a&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_client_32df037cb85612107f44b56e8e7a0c1e&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;m.mackey&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-12-04 18:14:47&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_1534869_rrm_confrence_rooms&lt;/table&gt;
+        &lt;type&gt;onChange&lt;/type&gt;
+        &lt;ui_type&gt;0&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>-560555316</payload_hash>
+        <record_name>Conference Room Wifi Password</record_name>
+        <reverted_from/>
+        <source>b4b5122d2d5a12107f4400b4c1caf1bf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>t.gadson</sys_created_by>
+        <sys_created_on>2024-12-05 23:45:10</sys_created_on>
+        <sys_id>76b5922d2d5a12107f4400b4c1caf1c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1939936928c0000001</sys_recorded_at>
+        <sys_updated_by>t.gadson</sys_updated_by>
+        <sys_updated_on>2024-12-05 23:45:10</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>32b5922d6c5a121020bea6f6601276c9</update_guid>
+        <update_guid_history>32b5922d6c5a121020bea6f6601276c9:0,1e922465ad121210574d4b87fafaf209:0,c18088195d1612102098f5330ca59f33:1122175312,cb5fff8575161210301171412bf794e6:0,4b0eff05d1161210f74c1496ba7f0e56:1122175312,571cff018e161210102e9bcce38c1083:0,94c97f0ddbd212107dc359528d74dd30:-944203047,5779770df8d21210404a48694c338895:1122175312,3035173484961210d8c06b2b177910ee:-1562205821,e6f493f0a09612109218de81724e5334:-851493643,a35453f0d39612103334cdaaa87e3be1:-1562205821,5524d7b040961210a4193c44423d5fe4:-119662349,801293fc50561210c01ad6c40b01dd97:197713949,03401f7c1f56121021f8cc0b972536ea:1078361432</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-06 18:57:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>0631db1738404dcc830be16af28b1e90</sys_id>
+        <sys_metadata>32df037cb85612107f44b56e8e7a0c1e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conference Room Wifi Password</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_parent display_value="Conference Rooms">4881ccc7094212107f445f17a51035c5</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_scope_delete display_value="">1d2a0a09fed841648369685ce5209690</sys_scope_delete>
+        <sys_update_name>sys_script_client_32df037cb85612107f44b56e8e7a0c1e</sys_update_name>
+        <sys_update_version display_value="sys_script_client_32df037cb85612107f44b56e8e7a0c1e">76b5922d2d5a12107f4400b4c1caf1c9</sys_update_version>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-06 18:57:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

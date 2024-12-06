@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=97070000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=327797000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>25000</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -14,13 +14,13 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>approval_conference_room</internal_name>
-        <label_cache>[{"name":"Updated_1.current.record_number.number","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_confrence_rooms","column_name":"number","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":[null]}},{"name":"Updated_1.current.request_record.requested_by.first_name","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":[null]}},{"name":"Updated_1.current.request_record.requested_by.email","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"imp_user","column_name":"email","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":["ah_to"]}},{"name":"Updated_1.current.request_record.work_end","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Expected end time","reference":"","reference_display":"Expected end time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1534869_rrm_request","column_name":"work_end","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.request_record.work_start","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested Date","reference":"","reference_display":"Requested Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1534869_rrm_request","column_name":"work_start","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.record_number.wifi_password","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room➛Wifi Password","reference":"","reference_display":"Wifi Password","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_confrence_rooms","column_name":"wifi_password","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.request_record.requested_by","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By","reference":"imp_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_request","column_name":"requested_by","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":["ah_to"]}},{"name":"Updated_1.current.request_record","label":"Trigger - Record Updated➛Approval Task Record➛Request Record","reference":"x_1534869_rrm_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_approval_task","column_name":"request_record","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":["record"],"706931e6-ef75-4216-8248-9d2a907f0041":["record"],"be2a3836-441e-4933-96f4-6c022e5af0ff":["record"],"56bc9d31-7615-4d6a-b013-293b11655924":["record"]}},{"name":"Created_1.current.record_number","label":"Trigger - Record Created➛Approval Task Record➛Record Number","reference":"x_1534869_rrm_confrence_rooms","reference_display":"Conference Rooms","type":"reference","base_type":"reference","usedInstances":{"9485fa3f-d722-40c0-98d6-ac20bdce6eec":["record"],"4c4a716e-33d1-46bb-b327-c113d6bf70a7":["record"],"f310e415-a4e7-4cca-914d-8b3f2d906a9f":["record"],"1176fb09-aa9e-463b-8dcc-962b44f0c1f5":["record_number"]}},{"name":"Created_1.current.approval_type","label":"Trigger - Record Created➛Approval Task Record➛Approval Type","reference":"","reference_display":"Approval Type","type":"choice","base_type":"choice","usedInstances":{"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Approval Task Record","reference":"x_1534869_rrm_approval_task","reference_display":"Approval Task","type":"reference","base_type":"reference","usedInstances":{"cadf8199-eba0-49bd-8d6f-4cff3f0a87b5":["record"]}},{"name":"Created_1.current.state","label":"Trigger - Record Created➛Approval Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","usedInstances":{"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"]}},{"name":"Created_1.current.parent","label":"Trigger - Record Created➛Approval Task Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"86372bf1-df9f-45b8-aec0-47c7bc6997a2":["record"]}},{"name":"Created_1.current.sys_class_name","label":"Trigger - Record Created➛Approval Task Record➛Task type","reference":"","reference_display":"Task type","type":"choice","base_type":"choice","usedInstances":{}},{"name":"Updated_1.current.approval_type","label":"Trigger - Record Updated➛Approval Task Record➛Approval Type","reference":"","reference_display":"Approval Type","type":"choice","base_type":"choice","parent_table_name":"x_1534869_rrm_approval_task","column_name":"approval_type","choices":[{"label":"-- None --","reference":false,"used":false,"image":"","missing":false,"rawLabel":"-- None --","selected":false,"value":""},{"reference":false,"used":false,"label":"Conference Room Request","image":"","missing":false,"rawLabel":"Conference Room Request","selected":false,"value":"Conference Room Request","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"New Conference Room","image":"","missing":false,"rawLabel":"New Conference Room","selected":false,"value":"New Conference Room","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Update Conference Room","image":"","missing":false,"rawLabel":"Update Conference Room","selected":false,"value":"Update Conference Room","parameters":{"name":"x_1534869_rrm_approval_task"}}],"usedInstances":{"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"],"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"12821ed5-a75a-43bb-99c6-d760d2cc9fbd":["condition"],"759d8040-703e-4ac6-af9a-3a1bf99b6ba0":["condition"]}},{"name":"Updated_1.current.state","label":"Trigger - Record Updated➛Approval Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1534869_rrm_approval_task","column_name":"state","choices":[{"reference":false,"used":false,"label":"Pending","image":"","missing":false,"rawLabel":"Pending","selected":false,"value":"-5","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Open","image":"","missing":false,"rawLabel":"Open","selected":false,"value":"1","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Work in Progress","image":"","missing":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Approved","image":"","missing":false,"rawLabel":"Approved","selected":false,"value":"3","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Denied","image":"","missing":false,"rawLabel":"Denied","selected":false,"value":"4","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Closed Skipped","image":"","missing":false,"rawLabel":"Closed Skipped","selected":false,"value":"7","parameters":{"name":"x_1534869_rrm_approval_task"}}],"usedInstances":{"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"],"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"12821ed5-a75a-43bb-99c6-d760d2cc9fbd":["condition"],"759d8040-703e-4ac6-af9a-3a1bf99b6ba0":["condition"]}},{"name":"Updated_1.current.record_number","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room","reference":"x_1534869_rrm_confrence_rooms","reference_display":"Conference Rooms","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_approval_task","column_name":"record_number","usedInstances":{"9485fa3f-d722-40c0-98d6-ac20bdce6eec":["record"],"4c4a716e-33d1-46bb-b327-c113d6bf70a7":["record"],"f310e415-a4e7-4cca-914d-8b3f2d906a9f":["record"],"1176fb09-aa9e-463b-8dcc-962b44f0c1f5":["record_number"],"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"11c24413-7151-41b1-92e9-1bca785e913f":["record"]}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.record_number","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room","reference":"x_1534869_rrm_confrence_rooms","reference_display":"Conference Rooms","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_approval_task","column_name":"record_number","usedInstances":{"9485fa3f-d722-40c0-98d6-ac20bdce6eec":["record"],"4c4a716e-33d1-46bb-b327-c113d6bf70a7":["record"],"f310e415-a4e7-4cca-914d-8b3f2d906a9f":["record"],"1176fb09-aa9e-463b-8dcc-962b44f0c1f5":["record_number"],"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"11c24413-7151-41b1-92e9-1bca785e913f":["record"],"9a4f4691-1914-4a4c-ad4b-b81c2fbd80ce":["record"],"4e260f82-fe55-4de4-84ce-c18767700d34":["record"]}},{"name":"Updated_1.current.state","label":"Trigger - Record Updated➛Approval Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1534869_rrm_approval_task","column_name":"state","choices":[{"used":false,"label":"Pending","reference":false,"image":"","missing":false,"rawLabel":"Pending","selected":false,"value":"-5","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Open","reference":false,"image":"","missing":false,"rawLabel":"Open","selected":false,"value":"1","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Work in Progress","reference":false,"image":"","missing":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Approved","reference":false,"image":"","missing":false,"rawLabel":"Approved","selected":false,"value":"3","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Denied","reference":false,"image":"","missing":false,"rawLabel":"Denied","selected":false,"value":"4","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Closed Skipped","reference":false,"image":"","missing":false,"rawLabel":"Closed Skipped","selected":false,"value":"7","parameters":{"name":"x_1534869_rrm_approval_task"}}],"usedInstances":{"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"],"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"12821ed5-a75a-43bb-99c6-d760d2cc9fbd":["condition"],"759d8040-703e-4ac6-af9a-3a1bf99b6ba0":["condition"]}},{"name":"Updated_1.current.approval_type","label":"Trigger - Record Updated➛Approval Task Record➛Approval Type","reference":"","reference_display":"Approval Type","type":"choice","base_type":"choice","parent_table_name":"x_1534869_rrm_approval_task","column_name":"approval_type","choices":[{"label":"-- None --","used":false,"reference":false,"image":"","missing":false,"rawLabel":"-- None --","selected":false,"value":""},{"used":false,"label":"Conference Room Request","reference":false,"image":"","missing":false,"rawLabel":"Conference Room Request","selected":false,"value":"Conference Room Request","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"New Conference Room","reference":false,"image":"","missing":false,"rawLabel":"New Conference Room","selected":false,"value":"New Conference Room","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Update Conference Room","reference":false,"image":"","missing":false,"rawLabel":"Update Conference Room","selected":false,"value":"Update Conference Room","parameters":{"name":"x_1534869_rrm_approval_task"}}],"usedInstances":{"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"],"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"12821ed5-a75a-43bb-99c6-d760d2cc9fbd":["condition"],"759d8040-703e-4ac6-af9a-3a1bf99b6ba0":["condition"]}},{"name":"Created_1.current.sys_class_name","label":"Trigger - Record Created➛Approval Task Record➛Task type","reference":"","reference_display":"Task type","type":"choice","base_type":"choice","usedInstances":{}},{"name":"Created_1.current.parent","label":"Trigger - Record Created➛Approval Task Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"86372bf1-df9f-45b8-aec0-47c7bc6997a2":["record"]}},{"name":"Created_1.current.state","label":"Trigger - Record Created➛Approval Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","usedInstances":{"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Approval Task Record","reference":"x_1534869_rrm_approval_task","reference_display":"Approval Task","type":"reference","base_type":"reference","usedInstances":{"cadf8199-eba0-49bd-8d6f-4cff3f0a87b5":["record"]}},{"name":"Created_1.current.approval_type","label":"Trigger - Record Created➛Approval Task Record➛Approval Type","reference":"","reference_display":"Approval Type","type":"choice","base_type":"choice","usedInstances":{"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"]}},{"name":"Created_1.current.record_number","label":"Trigger - Record Created➛Approval Task Record➛Record Number","reference":"x_1534869_rrm_confrence_rooms","reference_display":"Conference Rooms","type":"reference","base_type":"reference","usedInstances":{"9485fa3f-d722-40c0-98d6-ac20bdce6eec":["record"],"4c4a716e-33d1-46bb-b327-c113d6bf70a7":["record"],"f310e415-a4e7-4cca-914d-8b3f2d906a9f":["record"],"1176fb09-aa9e-463b-8dcc-962b44f0c1f5":["record_number"]}},{"name":"Updated_1.current.request_record","label":"Trigger - Record Updated➛Approval Task Record➛Request Record","reference":"x_1534869_rrm_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_approval_task","column_name":"request_record","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":["record"],"706931e6-ef75-4216-8248-9d2a907f0041":["record"],"be2a3836-441e-4933-96f4-6c022e5af0ff":["record"],"56bc9d31-7615-4d6a-b013-293b11655924":["record"]}},{"name":"Updated_1.current.request_record.requested_by","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By","reference":"imp_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_request","column_name":"requested_by","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":["ah_to"]}},{"name":"Updated_1.current.record_number.wifi_password","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room➛Wifi Password","reference":"","reference_display":"Wifi Password","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_confrence_rooms","column_name":"wifi_password","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.request_record.work_start","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested Date","reference":"","reference_display":"Requested Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1534869_rrm_request","column_name":"work_start","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.request_record.work_end","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Expected end time","reference":"","reference_display":"Expected end time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1534869_rrm_request","column_name":"work_end","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.request_record.requested_by.email","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"imp_user","column_name":"email","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":["ah_to"]}},{"name":"Updated_1.current.request_record.requested_by.first_name","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":[null]}},{"name":"Updated_1.current.record_number.number","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_confrence_rooms","column_name":"number","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":[null]}}]</label_cache>
         <master_snapshot>d5088081b8da12107f44b56e8e7a0c5e</master_snapshot>
         <name>Approval Requests</name>
         <natlang/>
         <outputs/>
         <pre_compiled>false</pre_compiled>
-        <remote_trigger_id>bd08c081b8da12107f44b56e8e7a0c9a</remote_trigger_id>
+        <remote_trigger_id>2497f57541d212107f4473b8206b9462</remote_trigger_id>
         <run_as>user</run_as>
         <run_with_roles/>
         <sc_callable>false</sc_callable>
@@ -33,7 +33,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>31b552a0d49a12107f4489ee789dc86f</sys_id>
-        <sys_mod_count>153</sys_mod_count>
+        <sys_mod_count>33</sys_mod_count>
         <sys_name>Approval Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
@@ -41,14 +41,15 @@
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_update_name>sys_hub_flow_31b552a0d49a12107f4489ee789dc86f</sys_update_name>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:09</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:36</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=31b552a0d49a12107f4489ee789dc86f"/>
     <sys_variable_value action="delete_multiple" query="document_key=31b552a0d49a12107f4489ee789dc86f"/>
     <sys_flow_record_trigger action="INSERT_OR_UPDATE">
         <active>true</active>
-        <condition table="x_1534869_rrm_approval_task">^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        <condition table="x_1534869_rrm_approval_task">stateCHANGESTO3^ORstateCHANGESTO4<item display_value="Approved" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="3"/>
+            <item display_value="Denied" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="true" value="4"/>
         </condition>
         <name/>
         <on_delete>false</on_delete>
@@ -56,36 +57,36 @@
         <on_update>true</on_update>
         <run_flow_in>background</run_flow_in>
         <run_on_extended>false</run_on_extended>
-        <run_when_setting>both</run_when_setting>
+        <run_when_setting>interactive</run_when_setting>
         <run_when_user_list/>
         <run_when_user_setting>any</run_when_user_setting>
         <sys_class_name>sys_flow_record_trigger</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
-        <sys_created_on>2024-12-04 00:09:07</sys_created_on>
+        <sys_created_on>2024-12-06 16:11:53</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>bd08c081b8da12107f44b56e8e7a0c9a</sys_id>
+        <sys_id>2497f57541d212107f4473b8206b9462</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_overrides/>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:07</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:11:53</sys_updated_on>
         <table>x_1534869_rrm_approval_task</table>
     </sys_flow_record_trigger>
     <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
         <active>true</active>
-        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"interactive","run_when_user_setting":"any","run_on_extended":"false"}</data>
         <identifier>31b552a0d49a12107f4489ee789dc86f</identifier>
         <runner>FDTriggerRunner</runner>
         <sys_created_by>m.mackey</sys_created_by>
-        <sys_created_on>2024-12-04 00:09:07</sys_created_on>
-        <sys_id>3908c081b8da12107f44b56e8e7a0c9b</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2024-12-06 16:14:35</sys_created_on>
+        <sys_id>c4383db541d212107f4473b8206b9477</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:07</sys_updated_on>
-        <trigger display_value="">bd08c081b8da12107f44b56e8e7a0c9a</trigger>
+        <sys_updated_on>2024-12-06 16:14:35</sys_updated_on>
+        <trigger display_value="">2497f57541d212107f4473b8206b9462</trigger>
     </sys_trigger_runner_mapping>
-    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=31b552a0d49a12107f4489ee789dc86f^sys_idNOT IN3908c081b8da12107f44b56e8e7a0c9b"/>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=31b552a0d49a12107f4489ee789dc86f^sys_idNOT INc4383db541d212107f4473b8206b9477"/>
     <sys_hub_trigger_instance action="delete_multiple" query="flow=31b552a0d49a12107f4489ee789dc86f^sys_idNOT IN20ee1620d4da12107f4489ee789dc88d"/>
     <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
         <comment/>
@@ -96,10 +97,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-02 21:51:15</sys_created_on>
         <sys_id>20ee1620d4da12107f4489ee789dc88d</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>38</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:08</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:35</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -128,11 +129,25 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-02 21:51:15</sys_created_on>
         <sys_id>6cee1620d4da12107f4489ee789dc88d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-06 16:11:41</sys_updated_on>
+        <value>stateCHANGESTO3^ORstateCHANGESTO4</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>20ee1620d4da12107f4489ee789dc88d</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-06 15:41:39</sys_created_on>
+        <sys_id>bda07179419212107f4473b8206b94c5</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-02 21:51:15</sys_updated_on>
-        <value>^EQ</value>
-        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+        <sys_updated_on>2024-12-06 15:41:39</sys_updated_on>
+        <value>interactive</value>
+        <variable display_value="Run When Session Setting">48395df3c7002300f4eba1425a976372</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=20ee1620d4da12107f4489ee789dc88d"/>
     <sys_hub_flow_stage action="delete_multiple" query="flow=31b552a0d49a12107f4489ee789dc86f"/>
@@ -213,14 +228,14 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-02 21:34:56</sys_created_on>
         <sys_id>212b5aa8d49a12107f4489ee789dc8b1</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:07</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -297,14 +312,14 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-02 21:34:56</sys_created_on>
         <sys_id>6d2b5aa8d49a12107f4489ee789dc893</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:07</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -438,16 +453,16 @@
         <display_text/>
         <flow display_value="Approval Requests">31b552a0d49a12107f4489ee789dc86f</flow>
         <generation_source/>
-        <order>14</order>
+        <order>13</order>
         <parent_ui_id>759d8040-703e-4ac6-af9a-3a1bf99b6ba0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-03 22:51:22</sys_created_on>
         <sys_id>0336bb34b85a12107f44b56e8e7a0c97</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:09</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:20:23</sys_updated_on>
         <ui_id>56bc9d31-7615-4d6a-b013-293b11655924</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0336bb34b85a12107f44b56e8e7a0c97"/>
@@ -534,10 +549,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-02 21:35:06</sys_created_on>
         <sys_id>0c3bdaa8d49a12107f4489ee789dc85a</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>78</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:08</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:20:23</sys_updated_on>
         <ui_id>f310e415-a4e7-4cca-914d-8b3f2d906a9f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=0c3bdaa8d49a12107f4489ee789dc85a"/>
@@ -618,16 +633,16 @@
         <display_text/>
         <flow display_value="Approval Requests">31b552a0d49a12107f4489ee789dc86f</flow>
         <generation_source/>
-        <order>13</order>
+        <order>14</order>
         <parent_ui_id>759d8040-703e-4ac6-af9a-3a1bf99b6ba0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-03 21:34:15</sys_created_on>
         <sys_id>19942fb8b8d612107f44b56e8e7a0c0c</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>76</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:09</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:20:23</sys_updated_on>
         <ui_id>706931e6-ef75-4216-8248-9d2a907f0041</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=19942fb8b8d612107f44b56e8e7a0c0c"/>
@@ -756,10 +771,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-02 21:48:18</sys_created_on>
         <sys_id>213e16ecd49a12107f4489ee789dc81e</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:08</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:20:23</sys_updated_on>
         <ui_id>4c4a716e-33d1-46bb-b327-c113d6bf70a7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=213e16ecd49a12107f4489ee789dc81e"/>
@@ -840,16 +855,16 @@
         <display_text/>
         <flow display_value="Approval Requests">31b552a0d49a12107f4489ee789dc86f</flow>
         <generation_source/>
-        <order>9</order>
+        <order>10</order>
         <parent_ui_id>12821ed5-a75a-43bb-99c6-d760d2cc9fbd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-03 21:24:08</sys_created_on>
         <sys_id>41426bf4b8d612107f44b56e8e7a0c7d</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>70</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:09</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:20:23</sys_updated_on>
         <ui_id>773c9517-7703-4762-8e15-b3a31f5d753f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=41426bf4b8d612107f44b56e8e7a0c7d"/>
@@ -979,10 +994,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-02 21:41:13</sys_created_on>
         <sys_id>619c966cd49a12107f4489ee789dc858</sys_id>
-        <sys_mod_count>36</sys_mod_count>
+        <sys_mod_count>72</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:08</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:20:23</sys_updated_on>
         <ui_id>1176fb09-aa9e-463b-8dcc-962b44f0c1f5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=619c966cd49a12107f4489ee789dc858"/>
@@ -1037,16 +1052,16 @@
         <display_text/>
         <flow display_value="Approval Requests">31b552a0d49a12107f4489ee789dc86f</flow>
         <generation_source/>
-        <order>10</order>
+        <order>9</order>
         <parent_ui_id>12821ed5-a75a-43bb-99c6-d760d2cc9fbd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-03 22:49:13</sys_created_on>
         <sys_id>97b5bbb0b85a12107f44b56e8e7a0c43</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>50</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:09</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:20:23</sys_updated_on>
         <ui_id>be2a3836-441e-4933-96f4-6c022e5af0ff</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=97b5bbb0b85a12107f44b56e8e7a0c43"/>
@@ -1143,10 +1158,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-03 21:22:19</sys_created_on>
         <sys_id>2ad1efb4b8d612107f44b56e8e7a0c2e</sys_id>
-        <sys_mod_count>23</sys_mod_count>
+        <sys_mod_count>40</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:09</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:36</sys_updated_on>
         <ui_id>12821ed5-a75a-43bb-99c6-d760d2cc9fbd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1216,10 +1231,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-03 22:54:09</sys_created_on>
         <sys_id>33d67b74b85a12107f44b56e8e7a0c88</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:09</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:36</sys_updated_on>
         <ui_id>663e0dba-a7db-4696-a9b1-653478f25017</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1251,10 +1266,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-02 21:13:12</sys_created_on>
         <sys_id>4f2612e0d49a12107f4489ee789dc81b</sys_id>
-        <sys_mod_count>47</sys_mod_count>
+        <sys_mod_count>60</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:08</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:36</sys_updated_on>
         <ui_id>84df47b6-863c-4f63-adfc-26a8a8fa5b65</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1338,10 +1353,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-02 21:48:55</sys_created_on>
         <sys_id>665e5eecd49a12107f4489ee789dc8e8</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>30</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:09</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:36</sys_updated_on>
         <ui_id>c25a41c4-3455-49b0-bfab-d125ca25f5f0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1372,10 +1387,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-02 21:43:57</sys_created_on>
         <sys_id>793dd2acd49a12107f4489ee789dc8e5</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>28</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:08</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:36</sys_updated_on>
         <ui_id>7d21a82f-416a-49b6-a039-3de2c34ef27f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1406,10 +1421,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-03 22:54:15</sys_created_on>
         <sys_id>99e63f34b85a12107f44b56e8e7a0c50</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:09</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:36</sys_updated_on>
         <ui_id>b9876ea0-a9a3-4430-8fef-3aeb1da93da5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1441,10 +1456,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-03 21:33:33</sys_created_on>
         <sys_id>cb64ab38b8d612107f44b56e8e7a0c6e</sys_id>
-        <sys_mod_count>27</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:09</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:36</sys_updated_on>
         <ui_id>759d8040-703e-4ac6-af9a-3a1bf99b6ba0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1515,10 +1530,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-02 21:14:06</sys_created_on>
         <sys_id>e0661ee0d49a12107f4489ee789dc871</sys_id>
-        <sys_mod_count>41</sys_mod_count>
+        <sys_mod_count>54</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:08</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:36</sys_updated_on>
         <ui_id>5765fe0b-47c4-448a-9dbf-3831abcda1a6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -1923,7 +1938,7 @@
         <description>Approval process for use of conference rooms and new conference rooms</description>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>approval_requests</internal_name>
-        <label_cache>[{"name":"Updated_1.current.record_number.number","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_confrence_rooms","column_name":"number","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":[null]}},{"name":"Updated_1.current.request_record.requested_by.first_name","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":[null]}},{"name":"Updated_1.current.request_record.requested_by.email","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"imp_user","column_name":"email","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":["ah_to"]}},{"name":"Updated_1.current.request_record.work_end","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Expected end time","reference":"","reference_display":"Expected end time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1534869_rrm_request","column_name":"work_end","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.request_record.work_start","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested Date","reference":"","reference_display":"Requested Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1534869_rrm_request","column_name":"work_start","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.record_number.wifi_password","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room➛Wifi Password","reference":"","reference_display":"Wifi Password","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_confrence_rooms","column_name":"wifi_password","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.request_record.requested_by","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By","reference":"imp_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_request","column_name":"requested_by","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":["ah_to"]}},{"name":"Updated_1.current.request_record","label":"Trigger - Record Updated➛Approval Task Record➛Request Record","reference":"x_1534869_rrm_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_approval_task","column_name":"request_record","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":["record"],"706931e6-ef75-4216-8248-9d2a907f0041":["record"],"be2a3836-441e-4933-96f4-6c022e5af0ff":["record"],"56bc9d31-7615-4d6a-b013-293b11655924":["record"]}},{"name":"Created_1.current.record_number","label":"Trigger - Record Created➛Approval Task Record➛Record Number","reference":"x_1534869_rrm_confrence_rooms","reference_display":"Conference Rooms","type":"reference","base_type":"reference","usedInstances":{"9485fa3f-d722-40c0-98d6-ac20bdce6eec":["record"],"4c4a716e-33d1-46bb-b327-c113d6bf70a7":["record"],"f310e415-a4e7-4cca-914d-8b3f2d906a9f":["record"],"1176fb09-aa9e-463b-8dcc-962b44f0c1f5":["record_number"]}},{"name":"Created_1.current.approval_type","label":"Trigger - Record Created➛Approval Task Record➛Approval Type","reference":"","reference_display":"Approval Type","type":"choice","base_type":"choice","usedInstances":{"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Approval Task Record","reference":"x_1534869_rrm_approval_task","reference_display":"Approval Task","type":"reference","base_type":"reference","usedInstances":{"cadf8199-eba0-49bd-8d6f-4cff3f0a87b5":["record"]}},{"name":"Created_1.current.state","label":"Trigger - Record Created➛Approval Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","usedInstances":{"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"]}},{"name":"Created_1.current.parent","label":"Trigger - Record Created➛Approval Task Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"86372bf1-df9f-45b8-aec0-47c7bc6997a2":["record"]}},{"name":"Created_1.current.sys_class_name","label":"Trigger - Record Created➛Approval Task Record➛Task type","reference":"","reference_display":"Task type","type":"choice","base_type":"choice","usedInstances":{}},{"name":"Updated_1.current.approval_type","label":"Trigger - Record Updated➛Approval Task Record➛Approval Type","reference":"","reference_display":"Approval Type","type":"choice","base_type":"choice","parent_table_name":"x_1534869_rrm_approval_task","column_name":"approval_type","choices":[{"label":"-- None --","reference":false,"used":false,"image":"","missing":false,"rawLabel":"-- None --","selected":false,"value":""},{"reference":false,"used":false,"label":"Conference Room Request","image":"","missing":false,"rawLabel":"Conference Room Request","selected":false,"value":"Conference Room Request","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"New Conference Room","image":"","missing":false,"rawLabel":"New Conference Room","selected":false,"value":"New Conference Room","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Update Conference Room","image":"","missing":false,"rawLabel":"Update Conference Room","selected":false,"value":"Update Conference Room","parameters":{"name":"x_1534869_rrm_approval_task"}}],"usedInstances":{"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"],"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"12821ed5-a75a-43bb-99c6-d760d2cc9fbd":["condition"],"759d8040-703e-4ac6-af9a-3a1bf99b6ba0":["condition"]}},{"name":"Updated_1.current.state","label":"Trigger - Record Updated➛Approval Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1534869_rrm_approval_task","column_name":"state","choices":[{"reference":false,"used":false,"label":"Pending","image":"","missing":false,"rawLabel":"Pending","selected":false,"value":"-5","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Open","image":"","missing":false,"rawLabel":"Open","selected":false,"value":"1","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Work in Progress","image":"","missing":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Approved","image":"","missing":false,"rawLabel":"Approved","selected":false,"value":"3","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Denied","image":"","missing":false,"rawLabel":"Denied","selected":false,"value":"4","parameters":{"name":"x_1534869_rrm_approval_task"}},{"reference":false,"used":false,"label":"Closed Skipped","image":"","missing":false,"rawLabel":"Closed Skipped","selected":false,"value":"7","parameters":{"name":"x_1534869_rrm_approval_task"}}],"usedInstances":{"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"],"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"12821ed5-a75a-43bb-99c6-d760d2cc9fbd":["condition"],"759d8040-703e-4ac6-af9a-3a1bf99b6ba0":["condition"]}},{"name":"Updated_1.current.record_number","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room","reference":"x_1534869_rrm_confrence_rooms","reference_display":"Conference Rooms","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_approval_task","column_name":"record_number","usedInstances":{"9485fa3f-d722-40c0-98d6-ac20bdce6eec":["record"],"4c4a716e-33d1-46bb-b327-c113d6bf70a7":["record"],"f310e415-a4e7-4cca-914d-8b3f2d906a9f":["record"],"1176fb09-aa9e-463b-8dcc-962b44f0c1f5":["record_number"],"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"11c24413-7151-41b1-92e9-1bca785e913f":["record"]}}]</label_cache>
+        <label_cache>[{"name":"Updated_1.current.record_number","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room","reference":"x_1534869_rrm_confrence_rooms","reference_display":"Conference Rooms","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_approval_task","column_name":"record_number","usedInstances":{"9485fa3f-d722-40c0-98d6-ac20bdce6eec":["record"],"4c4a716e-33d1-46bb-b327-c113d6bf70a7":["record"],"f310e415-a4e7-4cca-914d-8b3f2d906a9f":["record"],"1176fb09-aa9e-463b-8dcc-962b44f0c1f5":["record_number"],"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"11c24413-7151-41b1-92e9-1bca785e913f":["record"],"9a4f4691-1914-4a4c-ad4b-b81c2fbd80ce":["record"],"4e260f82-fe55-4de4-84ce-c18767700d34":["record"]}},{"name":"Updated_1.current.state","label":"Trigger - Record Updated➛Approval Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_1534869_rrm_approval_task","column_name":"state","choices":[{"used":false,"label":"Pending","reference":false,"image":"","missing":false,"rawLabel":"Pending","selected":false,"value":"-5","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Open","reference":false,"image":"","missing":false,"rawLabel":"Open","selected":false,"value":"1","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Work in Progress","reference":false,"image":"","missing":false,"rawLabel":"Work in Progress","selected":false,"value":"2","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Approved","reference":false,"image":"","missing":false,"rawLabel":"Approved","selected":false,"value":"3","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Denied","reference":false,"image":"","missing":false,"rawLabel":"Denied","selected":false,"value":"4","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Closed Skipped","reference":false,"image":"","missing":false,"rawLabel":"Closed Skipped","selected":false,"value":"7","parameters":{"name":"x_1534869_rrm_approval_task"}}],"usedInstances":{"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"],"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"12821ed5-a75a-43bb-99c6-d760d2cc9fbd":["condition"],"759d8040-703e-4ac6-af9a-3a1bf99b6ba0":["condition"]}},{"name":"Updated_1.current.approval_type","label":"Trigger - Record Updated➛Approval Task Record➛Approval Type","reference":"","reference_display":"Approval Type","type":"choice","base_type":"choice","parent_table_name":"x_1534869_rrm_approval_task","column_name":"approval_type","choices":[{"label":"-- None --","used":false,"reference":false,"image":"","missing":false,"rawLabel":"-- None --","selected":false,"value":""},{"used":false,"label":"Conference Room Request","reference":false,"image":"","missing":false,"rawLabel":"Conference Room Request","selected":false,"value":"Conference Room Request","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"New Conference Room","reference":false,"image":"","missing":false,"rawLabel":"New Conference Room","selected":false,"value":"New Conference Room","parameters":{"name":"x_1534869_rrm_approval_task"}},{"used":false,"label":"Update Conference Room","reference":false,"image":"","missing":false,"rawLabel":"Update Conference Room","selected":false,"value":"Update Conference Room","parameters":{"name":"x_1534869_rrm_approval_task"}}],"usedInstances":{"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"],"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"12821ed5-a75a-43bb-99c6-d760d2cc9fbd":["condition"],"759d8040-703e-4ac6-af9a-3a1bf99b6ba0":["condition"]}},{"name":"Created_1.current.sys_class_name","label":"Trigger - Record Created➛Approval Task Record➛Task type","reference":"","reference_display":"Task type","type":"choice","base_type":"choice","usedInstances":{}},{"name":"Created_1.current.parent","label":"Trigger - Record Created➛Approval Task Record➛Parent","reference":"task","reference_display":"Task","type":"reference","base_type":"reference","usedInstances":{"86372bf1-df9f-45b8-aec0-47c7bc6997a2":["record"]}},{"name":"Created_1.current.state","label":"Trigger - Record Created➛Approval Task Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","usedInstances":{"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"]}},{"name":"Created_1.current","label":"Trigger - Record Created➛Approval Task Record","reference":"x_1534869_rrm_approval_task","reference_display":"Approval Task","type":"reference","base_type":"reference","usedInstances":{"cadf8199-eba0-49bd-8d6f-4cff3f0a87b5":["record"]}},{"name":"Created_1.current.approval_type","label":"Trigger - Record Created➛Approval Task Record➛Approval Type","reference":"","reference_display":"Approval Type","type":"choice","base_type":"choice","usedInstances":{"5765fe0b-47c4-448a-9dbf-3831abcda1a6":["condition"],"84df47b6-863c-4f63-adfc-26a8a8fa5b65":["condition"]}},{"name":"Created_1.current.record_number","label":"Trigger - Record Created➛Approval Task Record➛Record Number","reference":"x_1534869_rrm_confrence_rooms","reference_display":"Conference Rooms","type":"reference","base_type":"reference","usedInstances":{"9485fa3f-d722-40c0-98d6-ac20bdce6eec":["record"],"4c4a716e-33d1-46bb-b327-c113d6bf70a7":["record"],"f310e415-a4e7-4cca-914d-8b3f2d906a9f":["record"],"1176fb09-aa9e-463b-8dcc-962b44f0c1f5":["record_number"]}},{"name":"Updated_1.current.request_record","label":"Trigger - Record Updated➛Approval Task Record➛Request Record","reference":"x_1534869_rrm_request","reference_display":"Request","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_approval_task","column_name":"request_record","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":["record"],"706931e6-ef75-4216-8248-9d2a907f0041":["record"],"be2a3836-441e-4933-96f4-6c022e5af0ff":["record"],"56bc9d31-7615-4d6a-b013-293b11655924":["record"]}},{"name":"Updated_1.current.request_record.requested_by","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By","reference":"imp_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"x_1534869_rrm_request","column_name":"requested_by","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":["ah_to"]}},{"name":"Updated_1.current.record_number.wifi_password","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room➛Wifi Password","reference":"","reference_display":"Wifi Password","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_confrence_rooms","column_name":"wifi_password","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.request_record.work_start","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested Date","reference":"","reference_display":"Requested Date","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1534869_rrm_request","column_name":"work_start","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.request_record.work_end","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Expected end time","reference":"","reference_display":"Expected end time","type":"glide_date_time","base_type":"glide_date_time","parent_table_name":"x_1534869_rrm_request","column_name":"work_end","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null]}},{"name":"Updated_1.current.request_record.requested_by.email","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By➛Email","reference":"","reference_display":"Email","type":"string","base_type":"string","parent_table_name":"imp_user","column_name":"email","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":["ah_to"]}},{"name":"Updated_1.current.request_record.requested_by.first_name","label":"Trigger - Record Updated➛Approval Task Record➛Request Record➛Requested By➛First name","reference":"","reference_display":"First name","type":"string","base_type":"string","parent_table_name":"sys_user","column_name":"first_name","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":[null]}},{"name":"Updated_1.current.record_number.number","label":"Trigger - Record Updated➛Approval Task Record➛Conference Room➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_1534869_rrm_confrence_rooms","column_name":"number","usedInstances":{"773c9517-7703-4762-8e15-b3a31f5d753f":[null],"706931e6-ef75-4216-8248-9d2a907f0041":[null]}}]</label_cache>
         <master>true</master>
         <name>Approval Requests</name>
         <natlang/>
@@ -1940,7 +1955,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d5088081b8da12107f44b56e8e7a0c5e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -1948,7 +1963,7 @@
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:04</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow_snapshot>
     <sys_translated_text action="delete_multiple" query="documentkey=d5088081b8da12107f44b56e8e7a0c5e"/>
@@ -1963,10 +1978,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:06</sys_created_on>
         <sys_id>6508c081b8da12107f44b56e8e7a0c52</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_scope/>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:07</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:35</sys_updated_on>
         <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
         <trigger_inputs/>
         <trigger_outputs/>
@@ -1993,12 +2008,26 @@
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
-        <sys_created_on>2024-12-04 00:09:06</sys_created_on>
-        <sys_id>ed08c081b8da12107f44b56e8e7a0c52</sys_id>
+        <sys_created_on>2024-12-06 15:41:49</sys_created_on>
+        <sys_id>d0b0f579419212107f4473b8206b94b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:06</sys_updated_on>
-        <value>^EQ</value>
+        <sys_updated_on>2024-12-06 15:41:49</sys_updated_on>
+        <value>interactive</value>
+        <variable display_value="Run When Session Setting">48395df3c7002300f4eba1425a976372</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6508c081b8da12107f44b56e8e7a0c52</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-04 00:09:06</sys_created_on>
+        <sys_id>ed08c081b8da12107f44b56e8e7a0c52</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-06 16:11:50</sys_updated_on>
+        <value>stateCHANGESTO3^ORstateCHANGESTO4</value>
         <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=6508c081b8da12107f44b56e8e7a0c52"/>
@@ -2021,7 +2050,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2080,14 +2109,14 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:04</sys_created_on>
         <sys_id>1d088081b8da12107f44b56e8e7a0c60</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:04</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2105,7 +2134,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2164,14 +2193,14 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:04</sys_created_on>
         <sys_id>91088081b8da12107f44b56e8e7a0c9e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:04</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:33</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2185,11 +2214,34 @@
         <xml_view>false</xml_view>
     </sys_hub_flow_input>
     <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=91088081b8da12107f44b56e8e7a0c9e"/>
+    <sys_complex_object action="INSERT_OR_UPDATE">
+        <label/>
+        <name>FDCollection</name>
+        <namespace>FlowDesigner</namespace>
+        <scope_name>global</scope_name>
+        <serialized_content>{"FlowDesigner:FDCollection":{"$COCollectionField":[{"FDChangeDetails":{"previous_display_value":"String","previous_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Display Value\",\"mandatory\":\"false\",\"order\":\"4\",\"max_length\":\"0\"}"},"previous_value":"String","previous_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Previous Value\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"0\"}"},"current_display_value":"String","current_display_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Display Value\",\"mandatory\":\"false\",\"order\":\"5\",\"max_length\":\"0\"}"},"current_value":"String","current_value.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Current Value\",\"mandatory\":\"false\",\"order\":\"3\",\"max_length\":\"0\"}"},"field_name":"String","field_name.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Field Name\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"0\"}"}}}],"$COCollectionField.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"},"$COCollectionField.$field_facets":{"SimpleMapFacet":"{\"up-shift-collection-level\":\"true\"}"}},"FlowDesigner:FDCollection.$type_facets":{"SimpleMapFacet":"{\"pwd2droppable\":\"true\",\"default_value\":\"\",\"label\":\"Changed Fields\",\"mandatory\":\"false\",\"child_name\":\"FDChangeDetails\",\"uiTypeLabel\":\"Array.Object\",\"co_type_name\":\"FDCollection\",\"child_label\":\"FDChangeDetails\",\"child_type_label\":\"Object\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"array.object\",\"child_type\":\"object\",\"order\":\"100\",\"max_length\":\"4000\"}"}}</serialized_content>
+        <sys_class_name>sys_complex_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-13 23:19:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path/>
+        <sys_id>f4f014150f023300ecf0cc52ff767eed</sys_id>
+        <sys_mod_count>101</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Flow Designer Designer Model" source="com.glide.hub.designer_backend.model">ac7782bd21c102107f44464a0e4a8a7a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-28 05:06:11</sys_updated_on>
+        <type>complex_object_collection</type>
+    </sys_complex_object>
     <sys_hub_flow_input action="INSERT_OR_UPDATE">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -2248,14 +2300,14 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:04</sys_created_on>
         <sys_id>99088081b8da12107f44b56e8e7a0c70</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package/>
         <sys_policy/>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_update_name/>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:04</sys_updated_on>
+        <sys_updated_on>2024-12-06 15:38:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
@@ -2288,10 +2340,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:06</sys_created_on>
         <sys_id>6108c081b8da12107f44b56e8e7a0c16</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:06</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <ui_id>4c4a716e-33d1-46bb-b327-c113d6bf70a7</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6108c081b8da12107f44b56e8e7a0c16"/>
@@ -2372,16 +2424,16 @@
         <display_text/>
         <flow display_value="Approval Requests">d5088081b8da12107f44b56e8e7a0c5e</flow>
         <generation_source/>
-        <order>13</order>
+        <order>14</order>
         <parent_ui_id>759d8040-703e-4ac6-af9a-3a1bf99b6ba0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:06</sys_created_on>
         <sys_id>6508c081b8da12107f44b56e8e7a0c3c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:06</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <ui_id>706931e6-ef75-4216-8248-9d2a907f0041</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6508c081b8da12107f44b56e8e7a0c3c"/>
@@ -2504,16 +2556,16 @@
         <display_text/>
         <flow display_value="Approval Requests">d5088081b8da12107f44b56e8e7a0c5e</flow>
         <generation_source/>
-        <order>14</order>
+        <order>13</order>
         <parent_ui_id>759d8040-703e-4ac6-af9a-3a1bf99b6ba0</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:06</sys_created_on>
         <sys_id>6508c081b8da12107f44b56e8e7a0c50</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:06</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <ui_id>56bc9d31-7615-4d6a-b013-293b11655924</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=6508c081b8da12107f44b56e8e7a0c50"/>
@@ -2594,16 +2646,16 @@
         <display_text/>
         <flow display_value="Approval Requests">d5088081b8da12107f44b56e8e7a0c5e</flow>
         <generation_source/>
-        <order>10</order>
+        <order>9</order>
         <parent_ui_id>12821ed5-a75a-43bb-99c6-d760d2cc9fbd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:06</sys_created_on>
         <sys_id>a908c081b8da12107f44b56e8e7a0c33</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:06</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <ui_id>be2a3836-441e-4933-96f4-6c022e5af0ff</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=a908c081b8da12107f44b56e8e7a0c33"/>
@@ -2690,10 +2742,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:05</sys_created_on>
         <sys_id>e908c081b8da12107f44b56e8e7a0c07</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:05</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:33</sys_updated_on>
         <ui_id>f310e415-a4e7-4cca-914d-8b3f2d906a9f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e908c081b8da12107f44b56e8e7a0c07"/>
@@ -2780,10 +2832,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:05</sys_created_on>
         <sys_id>e908c081b8da12107f44b56e8e7a0c0f</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:05</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:33</sys_updated_on>
         <ui_id>1176fb09-aa9e-463b-8dcc-962b44f0c1f5</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e908c081b8da12107f44b56e8e7a0c0f"/>
@@ -2838,16 +2890,16 @@
         <display_text/>
         <flow display_value="Approval Requests">d5088081b8da12107f44b56e8e7a0c5e</flow>
         <generation_source/>
-        <order>9</order>
+        <order>10</order>
         <parent_ui_id>12821ed5-a75a-43bb-99c6-d760d2cc9fbd</parent_ui_id>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:06</sys_created_on>
         <sys_id>e908c081b8da12107f44b56e8e7a0c2b</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:06</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <ui_id>773c9517-7703-4762-8e15-b3a31f5d753f</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e908c081b8da12107f44b56e8e7a0c2b"/>
@@ -2987,10 +3039,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:05</sys_created_on>
         <sys_id>1d088081b8da12107f44b56e8e7a0ce9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:05</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <ui_id>12821ed5-a75a-43bb-99c6-d760d2cc9fbd</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3061,10 +3113,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:05</sys_created_on>
         <sys_id>51088081b8da12107f44b56e8e7a0cca</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:05</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <ui_id>5765fe0b-47c4-448a-9dbf-3831abcda1a6</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3134,10 +3186,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:05</sys_created_on>
         <sys_id>91088081b8da12107f44b56e8e7a0cc7</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:05</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:33</sys_updated_on>
         <ui_id>7d21a82f-416a-49b6-a039-3de2c34ef27f</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3168,10 +3220,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:05</sys_created_on>
         <sys_id>91088081b8da12107f44b56e8e7a0cce</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:05</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <ui_id>c25a41c4-3455-49b0-bfab-d125ca25f5f0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3203,10 +3255,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:05</sys_created_on>
         <sys_id>95088081b8da12107f44b56e8e7a0ca9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:05</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:33</sys_updated_on>
         <ui_id>84df47b6-863c-4f63-adfc-26a8a8fa5b65</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3276,10 +3328,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:05</sys_created_on>
         <sys_id>ad088081b8da12107f44b56e8e7a0cf3</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:05</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <ui_id>b9876ea0-a9a3-4430-8fef-3aeb1da93da5</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3310,10 +3362,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:05</sys_created_on>
         <sys_id>d5088081b8da12107f44b56e8e7a0ced</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:05</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <ui_id>663e0dba-a7db-4696-a9b1-653478f25017</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3345,10 +3397,10 @@
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:05</sys_created_on>
         <sys_id>e1088081b8da12107f44b56e8e7a0cf0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:05</sys_updated_on>
+        <sys_updated_on>2024-12-06 16:14:34</sys_updated_on>
         <ui_id>759d8040-703e-4ac6-af9a-3a1bf99b6ba0</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
@@ -3728,25 +3780,25 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>31b552a0d49a12107f4489ee789dc86f</sys_id>
         <latest_snapshot>d5088081b8da12107f44b56e8e7a0c5e</latest_snapshot>
-        <compiler_build/>
+        <compiler_build>glide-washingtondc-12-20-2023__patch1-02-28-2024_03-09-2024_0815.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=31b552a0d49a12107f4489ee789dc86f^sys_idNOT IN7d08c081b8da12107f44b56e8e7a0c9c"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"7d08c081b8da12107f44b56e8e7a0c9c","name":"plan","plan_signature":null}}</plan>
         <plan_id>31b552a0d49a12107f4489ee789dc86f</plan_id>
-        <snapshot>d5088081b8da12107f44b56e8e7a0c5e</snapshot>
+        <snapshot>b489fd3941d212107f4473b8206b9469</snapshot>
         <sys_created_by>m.mackey</sys_created_by>
         <sys_created_on>2024-12-04 00:09:07</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>7d08c081b8da12107f44b56e8e7a0c9c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 00:09:07</sys_updated_on>
-        <trigger display_value="">bd08c081b8da12107f44b56e8e7a0c9a</trigger>
+        <sys_updated_on>2024-12-06 16:11:53</sys_updated_on>
+        <trigger display_value="">2497f57541d212107f4473b8206b9462</trigger>
     </sys_flow_trigger_plan>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=31b552a0d49a12107f4489ee789dc86f"/>
 </record_update>

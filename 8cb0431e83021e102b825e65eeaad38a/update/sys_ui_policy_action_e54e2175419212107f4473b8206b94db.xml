@@ -8,21 +8,21 @@
         <mandatory>ignore</mandatory>
         <sys_class_name>sys_ui_policy_action</sys_class_name>
         <sys_created_by>m.mackey</sys_created_by>
-        <sys_created_on>2024-12-04 18:17:45</sys_created_on>
-        <sys_id>ce21c899e01612107f44e4f1fbb06357</sys_id>
+        <sys_created_on>2024-12-06 15:31:26</sys_created_on>
+        <sys_id>e54e2175419212107f4473b8206b94db</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>room_reserve_number</sys_name>
         <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
         <sys_policy/>
         <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
-        <sys_update_name>sys_ui_policy_action_ce21c899e01612107f44e4f1fbb06357</sys_update_name>
+        <sys_update_name>sys_ui_policy_action_e54e2175419212107f4473b8206b94db</sys_update_name>
         <sys_updated_by>m.mackey</sys_updated_by>
-        <sys_updated_on>2024-12-04 18:17:45</sys_updated_on>
+        <sys_updated_on>2024-12-06 15:31:26</sys_updated_on>
         <table>x_1534869_rrm_assignment_task</table>
-        <ui_policy display_value="Hide Room Request field when empty">fff08c59e01612107f44e4f1fbb06394</ui_policy>
+        <ui_policy display_value="Assignment Task - Hide field when empty">fff08c59e01612107f44e4f1fbb06394</ui_policy>
         <value/>
         <value_action>ignore</value_action>
         <visible>false</visible>
     </sys_ui_policy_action>
-    <sys_translated_text action="delete_multiple" query="documentkey=ce21c899e01612107f44e4f1fbb06357"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=e54e2175419212107f4473b8206b94db"/>
 </record_update>

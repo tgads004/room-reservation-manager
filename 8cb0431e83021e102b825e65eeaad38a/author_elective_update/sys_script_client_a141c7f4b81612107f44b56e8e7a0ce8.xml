@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Default Form Layout</description>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Assignment Form Layout</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var beenUpdated = g_form.getValue("room_reserve_number") ;
+
+    if (!beenUpdated) {
+		g_form.setDisplay('room_reserve_number', false);
+    } else {
+        g_form.setDisplay('room_reserve_number', true);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-03 18:59:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a141c7f4b81612107f44b56e8e7a0ce8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Assignment Form Layout</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_script_client_a141c7f4b81612107f44b56e8e7a0ce8</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-04 18:14:35</sys_updated_on>
+        <table>x_1534869_rrm_assignment_task</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</application>
+        <file_path/>
+        <instance_id>8b5fc4c5db0a1e50018f20c9139619f4</instance_id>
+        <instance_name>adf-nov20-136-003</instance_name>
+        <name>sys_script_client_a141c7f4b81612107f44b56e8e7a0ce8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;
+    &lt;sys_script_client action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;false&lt;/active&gt;
+        &lt;applies_extended&gt;false&lt;/applies_extended&gt;
+        &lt;condition/&gt;
+        &lt;description&gt;Default Form Layout&lt;/description&gt;
+        &lt;field/&gt;
+        &lt;global&gt;true&lt;/global&gt;
+        &lt;isolate_script&gt;true&lt;/isolate_script&gt;
+        &lt;messages/&gt;
+        &lt;name&gt;Assignment Form Layout&lt;/name&gt;
+        &lt;order/&gt;
+        &lt;script&gt;&lt;![CDATA[function onLoad() {
+	var beenUpdated = g_form.getValue("room_reserve_number") ;
+
+    if (!beenUpdated) {
+		g_form.setDisplay('room_reserve_number', false);
+    } else {
+        g_form.setDisplay('room_reserve_number', true);
+    }
+}]]&gt;&lt;/script&gt;
+        &lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;m.mackey&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2024-12-03 18:59:59&lt;/sys_created_on&gt;
+        &lt;sys_domain&gt;global&lt;/sys_domain&gt;
+        &lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;
+        &lt;sys_id&gt;a141c7f4b81612107f44b56e8e7a0ce8&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Assignment Form Layout&lt;/sys_name&gt;
+        &lt;sys_overrides/&gt;
+        &lt;sys_package display_value="Room Reservation Manager" source="x_1534869_rrm"&gt;8cb0431e83021e102b825e65eeaad38a&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="Room Reservation Manager"&gt;8cb0431e83021e102b825e65eeaad38a&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sys_script_client_a141c7f4b81612107f44b56e8e7a0ce8&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;m.mackey&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2024-12-04 18:14:35&lt;/sys_updated_on&gt;
+        &lt;table&gt;x_1534869_rrm_assignment_task&lt;/table&gt;
+        &lt;type&gt;onLoad&lt;/type&gt;
+        &lt;ui_type&gt;0&lt;/ui_type&gt;
+        &lt;view/&gt;
+    &lt;/sys_script_client&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>911733825</payload_hash>
+        <record_name>Assignment Form Layout</record_name>
+        <reverted_from/>
+        <source>b4b5122d2d5a12107f4400b4c1caf1bf</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>t.gadson</sys_created_by>
+        <sys_created_on>2024-12-05 23:45:10</sys_created_on>
+        <sys_id>feb5922d2d5a12107f4400b4c1caf1cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>193993692f70000001</sys_recorded_at>
+        <sys_updated_by>t.gadson</sys_updated_by>
+        <sys_updated_on>2024-12-05 23:45:10</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>bab5922de05a1210cd0d90cf68ccf0cb</update_guid>
+        <update_guid_history>bab5922de05a1210cd0d90cf68ccf0cb:0,96922465db1212102aa55624f783de0c:0,5a70485963161210ab9bd6a1c463ed37:961749063,075fff85cd16121062f9e76d880aafe9:0,680ebf05f91612106ede94649eec35db:961749063,d31cff01c816121088377c8ff1232586:0,485bfbcdb1d21210e6fbce393b9a5785:1202410425,83da73cd35d2121008d684061d0be149:961749063,7da14338311612103f3f33e73eae59d8:1337219898,6d410ff45e161210e3fcdc662686a03d:1749295798</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-06 18:57:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>27eb02ec0d0d4268831ea295653e9929</sys_id>
+        <sys_metadata>a141c7f4b81612107f44b56e8e7a0ce8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assignment Form Layout</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_parent display_value="Assignment Task">f4a4475283421e102b825e65eeaad36b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_scope_delete display_value="">1d2a0a09fed841648369685ce5209690</sys_scope_delete>
+        <sys_update_name>sys_script_client_a141c7f4b81612107f44b56e8e7a0ce8</sys_update_name>
+        <sys_update_version display_value="sys_script_client_a141c7f4b81612107f44b56e8e7a0ce8">feb5922d2d5a12107f4400b4c1caf1cb</sys_update_version>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-06 18:57:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

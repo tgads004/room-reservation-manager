@@ -19,7 +19,7 @@
         </element>
         <element label="Created User" max_length="40" name="created_user" read_only="true" type="string"/>
         <element label="Date Updated" max_length="15" name="date_updated" read_only="true" type="string"/>
-        <element label="Description" mandatory="true" max_length="40" name="description" type="string"/>
+        <element label="Description" mandatory="true" max_length="120" name="description" type="string"/>
         <element hint="Room number and building if more than one structure." label="Location" mandatory="true" max_length="40" name="location" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element attributes="edge_encryption_enabled=true" hint="Number of Seats in room - not max amount" label="Number of Seats" mandatory="true" max_length="255" name="number_of_seats" type="integer"/>
@@ -37,8 +37,8 @@
         <element label="Updated User" max_length="40" name="updated_user" read_only="true" type="string"/>
         <element label="Update Description" max_length="40" name="update_description" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Date Created" max_length="15" name="u_glide_date_1" read_only="true" type="string"/>
-        <element attributes="edge_encryption_enabled=true" hint="Input dimensions in Inches" label=" Room Width" max_length="38" name="width" type="decimal"/>
-        <element label="Wifi Password" max_length="255" name="wifi_password" type="string"/>
+        <element attributes="edge_encryption_enabled=true" hint="Input dimensions in Inches" label="Room Width" max_length="38" name="width" type="decimal"/>
+        <element label="Wifi Password" mandatory="true" max_length="255" name="wifi_password" type="string"/>
         <index name="index">
             <element name="company"/>
         </index>
