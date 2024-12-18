@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>2</order>
+        <published_ref/>
+        <question display_value="Short reason as to why you need the room.">e9ff9031196612107f442a7e6d81b162</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-18 20:04:50</sys_created_on>
+        <sys_id>75ff9031196612107f442a7e6d81b1b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Issue with email</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>question_choice_75ff9031196612107f442a7e6d81b1b7</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-18 20:04:50</sys_updated_on>
+        <text>Issue with email</text>
+        <value>Issue with email</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=75ff9031196612107f442a7e6d81b1b7"/>
+</record_update>
