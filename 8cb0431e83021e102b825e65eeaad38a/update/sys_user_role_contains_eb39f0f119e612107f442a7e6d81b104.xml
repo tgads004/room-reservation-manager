@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_1534869_rrm.supervisor" name="x_1534869_rrm.supervisor">24f087da83021e102b825e65eeaad34a</contains>
+        <role display_value="x_1534869_rrm.office administrator" name="x_1534869_rrm.office administrator">b8f087da83021e102b825e65eeaad325</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>m.mackey</sys_created_by>
+        <sys_created_on>2024-12-18 21:55:16</sys_created_on>
+        <sys_id>eb39f0f119e612107f442a7e6d81b104</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1534869_rrm.supervisor.x_1534869_rrm.office administrator</sys_name>
+        <sys_package display_value="Room Reservation Manager" source="x_1534869_rrm">8cb0431e83021e102b825e65eeaad38a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Room Reservation Manager">8cb0431e83021e102b825e65eeaad38a</sys_scope>
+        <sys_update_name>sys_user_role_contains_eb39f0f119e612107f442a7e6d81b104</sys_update_name>
+        <sys_updated_by>m.mackey</sys_updated_by>
+        <sys_updated_on>2024-12-18 21:55:16</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>
